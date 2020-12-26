@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://bobbleoxs.github.io/shantax/posts/</link>
+    <link>https://shan.tax/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sat, 26 Dec 2020 18:33:16 +0000</lastBuildDate><atom:link href="https://bobbleoxs.github.io/shantax/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Dec 2020 18:33:16 +0000</lastBuildDate><atom:link href="https://shan.tax/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://bobbleoxs.github.io/shantax/posts/my-first-post/</link>
+      <link>https://shan.tax/posts/my-first-post/</link>
       <pubDate>Sat, 26 Dec 2020 18:33:16 +0000</pubDate>
       
-      <guid>https://bobbleoxs.github.io/shantax/posts/my-first-post/</guid>
+      <guid>https://shan.tax/posts/my-first-post/</guid>
       <description>Test post.</description>
     </item>
     
