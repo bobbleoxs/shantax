@@ -1,6 +1,6 @@
 ### Hugo ###
 # Generated files by hugo
-/public/
+# /public/
 /resources/_gen/
 hugo_stats.json
 
@@ -10,6 +10,6 @@ hugo.darwin
 hugo.linux
 
 # GitHub Pages
-/docs/
+# /docs/
 
 # https://www.toptal.com/developers/gitignore/api/hugo
