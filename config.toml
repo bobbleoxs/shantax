@@ -1,4 +1,4 @@
-baseURL = "https://bobbleoxs.github.io/shantax/"
+baseURL = "https://shan.tax"
 languageCode = "en-gb"
 title = "My New Hugo Site"
 theme = "cactus"
