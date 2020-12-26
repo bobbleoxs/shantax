@@ -1,4 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://bobbleoxs.github.io/shantax/"
 languageCode = "en-gb"
 title = "My New Hugo Site"
 theme = "cactus"
+
+# Config required for GitHub Pages
+publishDir = "docs"

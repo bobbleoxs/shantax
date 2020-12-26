@@ -9,4 +9,7 @@ hugo.exe
 hugo.darwin
 hugo.linux
 
+# GitHub Pages
+/docs/
+
 # https://www.toptal.com/developers/gitignore/api/hugo
