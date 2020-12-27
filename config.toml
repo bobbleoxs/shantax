@@ -21,3 +21,5 @@ name = "github"
 [[params.social]]
 link = "http://linkedin.com/in/xiaoshansun"
 name = "linkedin"
+[markup.goldmark.renderer]
+unsafe = true
