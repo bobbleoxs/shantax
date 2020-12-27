@@ -1,6 +1,5 @@
 +++
 date = 2020-12-22T00:00:00Z
-draft = true
 title = "Second test post"
 
 +++
