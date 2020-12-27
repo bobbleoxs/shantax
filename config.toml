@@ -4,7 +4,7 @@ title = "Shan Sun"
 theme = "cactus"
 
 # Config required for GitHub Pages
-publishDir = "docs"
+publishDir = "public"
 
 copyright = "Shan Sun" # cactus will use title if copyright is not set
 # googleAnalytics = "UA-1234-5"
