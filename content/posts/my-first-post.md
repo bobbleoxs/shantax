@@ -3,6 +3,8 @@ title: Data Visualisation in Tax
 date: 2018-10-08T23:00:00+00:00
 
 ---
+![](https://www.researchgate.net/profile/Youbing_Zhao/publication/303790919/figure/fig4/AS:371091546624000@1465486527082/Chord-diagram-of-risk-elements-and-risk-factors-in-CARRE.png)
+
 Tax and finance teams use an excessive amount of dashboards. The contents are often limited to simple bar charts and histograms. However, tax data is multi-dimensional which means the simple two-dimensional representations may no longer be sufficient.
 
 I believe modern data visualisation in tax should increasingly serve the users with more depth in that it could allow users to:
