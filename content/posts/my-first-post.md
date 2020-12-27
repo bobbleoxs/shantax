@@ -1,6 +1,7 @@
 ---
 title: Data Visualisation in Tax
 date: 2018-10-09T10:00:00+00:00
+slug: data-visualisation-in-tax
 
 ---
 Tax and finance teams use an excessive amount of dashboards. The contents are often limited to simple bar charts and histograms. However, tax data is multi-dimensional which means the simple two-dimensional representations may no longer be sufficient.

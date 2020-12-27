@@ -15,4 +15,5 @@ fields:
   label: Slug
   description: URL slug
 pages:
+- content/posts/my-first-post.md
 - content/posts/second-test-post.md
