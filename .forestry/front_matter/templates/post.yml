@@ -8,5 +8,11 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
+  description: URL slug
 pages:
 - content/posts/second-test-post.md
