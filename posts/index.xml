@@ -20,10 +20,10 @@ Tell me more It&amp;rsquo;s really nothing special.</description>
     
     <item>
       <title>Data Visualisation in Tax</title>
-      <link>https://shan.tax/posts/my-first-post/</link>
+      <link>https://shan.tax/posts/data-visualisation-in-tax/</link>
       <pubDate>Tue, 09 Oct 2018 10:00:00 +0000</pubDate>
       
-      <guid>https://shan.tax/posts/my-first-post/</guid>
+      <guid>https://shan.tax/posts/data-visualisation-in-tax/</guid>
       <description>Tax and finance teams use an excessive amount of dashboards. The contents are often limited to simple bar charts and histograms. However, tax data is multi-dimensional which means the simple two-dimensional representations may no longer be sufficient.
 I believe modern data visualisation in tax should increasingly serve the users with more depth in that it could allow users to:
  interact with data, explore and tell a story from the data, and/or; directly enable an action point from the visualisation  I explain this thinking with an example in transfer pricing below.</description>
