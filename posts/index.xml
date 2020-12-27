@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Tue, 22 Dec 2020 11:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tax Skill</title>
-      <link>https://shan.tax/posts/my-first-post/</link>
-      <pubDate>Tue, 22 Dec 2020 11:00:00 +0000</pubDate>
-      
-      <guid>https://shan.tax/posts/my-first-post/</guid>
-      <description>This is an awesome test post.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second test post</title>
       <link>https://shan.tax/posts/second-test-post/</link>
@@ -25,6 +16,17 @@
       <guid>https://shan.tax/posts/second-test-post/</guid>
       <description>What is this? This is a second test post.
 Tell me more It&amp;rsquo;s really nothing special.</description>
+    </item>
+    
+    <item>
+      <title>Data Visualisation in Tax</title>
+      <link>https://shan.tax/posts/my-first-post/</link>
+      <pubDate>Mon, 08 Oct 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://shan.tax/posts/my-first-post/</guid>
+      <description>Tax and finance teams use an excessive amount of dashboards. The contents are often limited to simple bar charts and histograms. However, tax data is multi-dimensional which means the simple two-dimensional representations may no longer be sufficient.
+I believe modern data visualisation in tax should increasingly serve the users with more depth in that it could allow users to:
+ interact with data, explore and tell a story from the data, and/or; directly enable an action point from the visualisation  I explain this thinking with an example in transfer pricing below.</description>
     </item>
     
   </channel>
