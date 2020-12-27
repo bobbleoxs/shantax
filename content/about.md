@@ -6,5 +6,3 @@ weight = 2
 
 +++
 ## About Me
-
-This is some info about Shan.
