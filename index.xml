@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Oct 2018 10:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://shan.tax/about/</link>
@@ -19,16 +19,6 @@
     </item>
     
     <item>
-      <title>Second test post</title>
-      <link>https://shan.tax/posts/second-test-post/</link>
-      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://shan.tax/posts/second-test-post/</guid>
-      <description>What is this? This is a second test post.
-Tell me more It&amp;rsquo;s really nothing special.</description>
-    </item>
-    
-    <item>
       <title>Data Visualisation in Tax</title>
       <link>https://shan.tax/posts/data-visualisation-in-tax/</link>
       <pubDate>Tue, 09 Oct 2018 10:00:00 +0000</pubDate>
@@ -37,6 +27,17 @@ Tell me more It&amp;rsquo;s really nothing special.</description>
       <description>Tax and finance teams use an excessive amount of dashboards. The contents are often limited to simple bar charts and histograms. However, tax data is multi-dimensional which means the simple two-dimensional representations may no longer be sufficient.
 I believe modern data visualisation in tax should increasingly serve the users with more depth in that it could allow users to:
  interact with data, explore and tell a story from the data, and/or; directly enable an action point from the visualisation  I explain this thinking with an example in transfer pricing below.</description>
+    </item>
+    
+    <item>
+      <title>Skills for future tax professionals</title>
+      <link>https://shan.tax/posts/skills-for-future-tax-professionals/</link>
+      <pubDate>Mon, 02 Jul 2018 09:00:00 +0000</pubDate>
+      
+      <guid>https://shan.tax/posts/skills-for-future-tax-professionals/</guid>
+      <description>*Some updates on this subject are here.
+I often hear tax professionals around me wondering what skills our profession should have under the rapid progression of data and technology. The confusion, or more accurately the dilemma seems to be antagonistic option of resourcing established data scientists who adapt to the tax problem domain, or to expect tax professionals to learn data analytics, or even deeper.
+I suspect similar questions are on many non-tech industry professionals’ mind.</description>
     </item>
     
   </channel>
