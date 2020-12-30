@@ -1,6 +1,5 @@
 +++
 date = 2020-12-30T22:05:00Z
-draft = true
 slug = "Building-a-Personal-Website-for-Free"
 title = "Building a Personal Website for Free"
 
