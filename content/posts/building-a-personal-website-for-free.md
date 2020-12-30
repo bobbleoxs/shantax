@@ -1,5 +1,5 @@
 +++
-date = 2020-12-30T22:05:00Z
+date = 2020-12-29T00:00:00Z
 slug = "building-a-personal-website-for-free"
 title = "Building a Personal Website for Free"
 
