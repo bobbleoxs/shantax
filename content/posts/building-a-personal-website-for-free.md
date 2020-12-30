@@ -6,7 +6,7 @@ title = "Building a Personal Website for Free"
 +++
 # 📎Why?
 
-Over the years, I set up various blog sites for myself and others using existing services such as Squarespace and WordPress. This year, I want to do something different - making the build process itself a learning journey. It's a good time to do it because of a vast amount of excellent free open-source software available and plenty of tutorials/videos around. 
+Over the years, I set up various blog sites for myself and others using existing services such as Squarespace and WordPress. This year, I want to do something different - making the build process itself a learning journey. It's a good time to do it because of a vast amount of excellent free open-source software available and plenty of tutorials/videos around.
 
 # 📖How?
 
