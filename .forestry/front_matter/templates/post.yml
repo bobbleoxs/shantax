@@ -15,5 +15,6 @@ fields:
   label: Slug
   description: URL slug
 pages:
+- content/posts/building-a-personal-website-for-free.md
 - content/posts/my-first-post.md
 - content/posts/second-test-post.md
