@@ -1,6 +1,6 @@
 +++
 date = 2020-12-30T22:05:00Z
-slug = "Building-a-Personal-Website-for-Free"
+slug = "building-a-personal-website-for-free"
 title = "Building a Personal Website for Free"
 
 +++
