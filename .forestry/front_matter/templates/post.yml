@@ -15,6 +15,7 @@ fields:
   label: Slug
   description: URL slug
 pages:
+- content/posts/a-peek-at-the-giants-an-analysis-of-the-top-multinational-enterprises.md
 - content/posts/building-a-personal-website-for-free.md
 - content/posts/cbcr-analysis.md
 - content/posts/my-first-post.md
