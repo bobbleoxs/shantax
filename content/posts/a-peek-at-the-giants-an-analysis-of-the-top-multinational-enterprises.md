@@ -6,7 +6,7 @@ title = "A Peek at the Giants: An Analysis of the top Multinational Enterprises"
 +++
 _This blog was first published on medium.com and Analytics Vidhya News Bytes_
 
-> _This blog examines the Analytical Database of Individual Multinational Enterprises (MNEs) and their Affiliates (ADIMA) dataset from OECD to understand the structure and presence of the top 100 MNEs of our time across the world._
+This blog examines the Analytical Database of Individual Multinational Enterprises (MNEs) and their Affiliates (ADIMA) dataset from OECD to understand the structure and presence of the top 100 MNEs of our time across the world.
 
 ## **Background**
 
@@ -34,23 +34,22 @@ Despite being a small dataset, ADIMA provides some insights into the top 100 MNE
 
 1. Which sectors and countries have the most MNEs?
 2. Does firm-level productivity per employee influence MNE’s internationalisation as suggested in economic literature(1)?
-3. What are the factors affecting MNEs’ decision on the extent of their worldwide presence?
 
-## **Sectors and Countries that have the most MNEs**
+### **Sectors and Countries that have the most MNEs**
 
 The chart below shows the top 10 sectors that have the most MNEs operate in are manufacturers of vehicles, petroleum and pharmaceuticals, retail trade and telecommunications.
 
-![Image for post](https://miro.medium.com/max/1461/1*_0rcjkgafT0AdKL11yWNRw.png =925x455)
+![](/uploads/top102.png)
 
 Countries that are home to the most MNEs are the USA with a leading place of hosting 48 companies, followed by Japan and Germany with 12 and 10 MNEs respectively.
 
-![Image for post](https://miro.medium.com/max/1126/1*8vr4HBZ7MkE3Q3wew5onIQ.png =563x455)
+![](/uploads/top10.png)
 
-## **Firm-level Productivity and International Dispersion**
+### **Firm-level Productivity and International Dispersion**
 
 Economic literature held a long-established hypothesis that the most productive companies grow into multinationals through international expansion(1). The ADIMA database provides an opportunity to look at the relationship between firm-level productivity and the internationalisation of these MNEs. Two variables are constructed to measure firm level productivity (2) and MNE internationalisation (3).
 
-![Image for post](https://miro.medium.com/max/4928/1*xlV6SWsntJDKUKTu64igGQ.png =2464x1489)
+![](/uploads/mnes.png)
 
 The chart above illustrates the mapping of the correlation between firm-level productivity of the US and Japanese MNEs and their international dispersion. At a glance, there does not seem to have any immediate correlation pattern. Interestingly, irrespective of whether the MNE is headquarter-ed in the US or Japan, lower productivity (defined by lower than the mean productivity of all MNEs in orange line) companies seem to have higher dispersion (in descending order). Meanwhile, highly productive MNEs seem to have lower international dispersion.
 
