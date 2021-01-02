@@ -40,5 +40,15 @@ I often hear tax professionals around me wondering what skills our profession sh
 I suspect similar questions are on many non-tech industry professionals’ mind.</description>
     </item>
     
+    <item>
+      <title>CBCR Analysis</title>
+      <link>https://shan.tax/posts/cbcr-analysis/</link>
+      <pubDate>Tue, 12 Dec 2017 23:00:00 +0000</pubDate>
+      
+      <guid>https://shan.tax/posts/cbcr-analysis/</guid>
+      <description>Background OECD&amp;rsquo;s BEPS project Action 13 provides a template for multinational enterprises (&amp;ldquo;MNEs&amp;rdquo;) to report annually and for each tax jurisdiction in which they do business the information set out therein. This report is called the Country-by-Country Report (&amp;ldquo;CBCR&amp;rdquo;). The CBCR template requires two tables of MNEs&#39; financial and operational information.
+Exploratory data analysis In the first year of submitting CBCR, I wanted to use Python instead of Excel to see how one may get more insights from the data collected in CBCR.</description>
+    </item>
+    
   </channel>
 </rss>
