@@ -59,7 +59,7 @@ Companies like Alphabet Inc. and Apple Inc. have extremely high productivity per
 
 Alphabet, the parent company of Google has the highest international dispersion. This is because the emphasis of ADIMA is to seek out all global presences of each MNE by looking at not just their annual reports and physical registers, but also their digital presence, which is Google’s primary business operating model.
 
-## **Conclusion and Future Work**
+## **Conclusion**
 
 The ADIMA dataset is very small with only 100 MNEs and one year firm-level financial data. However, it provides a good start to peek into many aspects of these giant corporations. The OECD, tasked by G20, is one of the international organisations leading the way to provide public transparency to these companies.
 
