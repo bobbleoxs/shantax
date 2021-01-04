@@ -23,9 +23,9 @@ The data we use for training these machine learning models are structured data f
 
 In addition to the above-mentioned risks, tax has its own embedded risk. In particular, all tax returns are subject to audit by local tax authorities. A tax audit can be traced back for many years. Mistakes resulted from machine learning models may happen without appropriate checks or detection by the end-users, i.e. our tax professional. Relevant governance, therefore, is vital to ensure we have a robust defence when it comes to tax audits.
 
-## Recommended governance
+## Governance measures
 
-Based on the risk analyses, I implemented a series of measures to improve the governance for all machine learning classification models implemented in tax –
+Based on the risk analyses, I implemented a series of measures to improve the governance for all machine learning classification models implemented in tax: 
 
 * Build in a monitoring dashboard which has the basic information summarising the models used, performance metrics, distribution of classification results in terms how much is done using machine learning vs rule-based logic, trend analysis and levels of confidence which indicate how much manual work is required. An example of such a dashboard is shown below:
 
