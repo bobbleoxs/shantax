@@ -1,7 +1,7 @@
 +++
 date = 2018-07-02T09:00:00Z
-slug = "Skills-for-future-tax-professionals"
-title = "Skills for future tax professionals"
+slug = "skills-for-future-tax-professionals"
+title = "Skills for Future Tax Professionals"
 
 +++
 \*Some updates on this subject are here.
