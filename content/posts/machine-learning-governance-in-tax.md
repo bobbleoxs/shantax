@@ -25,7 +25,7 @@ In addition to the above-mentioned risks, tax has its own embedded risk. In part
 
 ## Governance measures
 
-Based on the risk analyses, I implemented a series of measures to improve the governance for all machine learning classification models implemented in tax: 
+Based on the risk analyses, I implemented a series of measures to improve the governance for all machine learning classification models implemented in tax:
 
 * Build in a monitoring dashboard which has the basic information summarising the models used, performance metrics, distribution of classification results in terms how much is done using machine learning vs rule-based logic, trend analysis and levels of confidence which indicate how much manual work is required. An example of such a dashboard is shown below:
 
