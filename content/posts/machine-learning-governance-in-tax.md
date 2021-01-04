@@ -19,6 +19,7 @@ The most frequent machine learning application I came across in tax falls into t
 The data we use for training these machine learning models are structured data from historical records. An inherent risk associated with the supervised learning approach was poor quality source data. Nonetheless, even a carefully constructed model with good historic data could lead to model decay (i.e. deterioration of model performance with lower accuracy). Broadly there are two types of risks inherent to this approach – 1) data drift or 2) concept drift.
 
 1. Data drift refers to when data evolves with time, it potentially introduces a previously unseen variety of data and new categories required thereof. It may also mean a different distribution of data compared to previously used data which will impact the relevant statistical model used. But there is no impact on previously labelled data. This is likely when our business gradually changes on the raw material purchase or portfolio change over time.
+
 2. Concept drift refers to when our interpretation of the data changes with time even while the general distribution of the data does not. This causes the end-user to interpret the model predictions as having deteriorated over time for the same/similar data. This may happen when there’s a change in relevant legislation or our determination of how one particular tax code should be assigned.
 
 In addition to the above-mentioned risks, tax has its own embedded risk. In particular, all tax returns are subject to audit by local tax authorities. A tax audit can be traced back for many years. Mistakes resulted from machine learning models may happen without appropriate checks or detection by the end-users, i.e. our tax professional. Relevant governance, therefore, is vital to ensure we have a robust defence when it comes to tax audits.
@@ -30,8 +31,6 @@ Based on the risk analyses, I implemented a series of measures to improve the go
 * Build in a monitoring dashboard which has the basic information summarising the models used, performance metrics, distribution of classification results in terms how much is done using machine learning vs rule-based logic, trend analysis and levels of confidence which indicate how much manual work is required. An example of such a dashboard is shown below:
 
   ![](/uploads/governance-dashboard.png)
-
-
 * Written documentation on the solution provided. Adequate training to our tax professionals to understand the methodology being used from high-level and the meaning of the components in the monitoring dashboard. The training should also allow the tax professionals to be aware of when to intervene manually, assess risks and/or enquire for more details from the solution provider.
 * The model used should be refreshed and manually checked periodically such as on a quarterly or bi-annually basis using recent training and testing data. This is to ensure the models are indeed performing at the accuracy level we expected and mitigating the risk of concept and model drifts without monitoring.
 * In the long run, the checks and refresh of the model should be built into codebase or using publicly available machine learning model governance package to ensure automated governance is in place without the need of step 3).
