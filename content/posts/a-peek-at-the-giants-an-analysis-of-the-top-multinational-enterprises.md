@@ -1,7 +1,7 @@
 +++
 date = 2019-10-17T09:00:00Z
-slug = "a-peek-at-the-giants"
-title = "A Peek at the Giants: An Analysis of the top Multinational Enterprises"
+slug = "peeking-into-the-giants"
+title = "Peeking into the Giants: An Analysis of the Top Multinational Enterprises"
 
 +++
 _This blog was first published on medium.com and Analytics Vidhya News Bytes_
