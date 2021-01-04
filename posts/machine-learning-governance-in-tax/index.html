@@ -217,19 +217,13 @@ Common applications The most frequent machine learning application I came across
 <h2 id="governance-measures">Governance measures</h2>
 <p>Based on the risk analyses, I implemented a series of measures to improve the governance for all machine learning classification models implemented in tax:</p>
 <ul>
-<li>
-<p>Build in a monitoring dashboard which has the basic information summarising the models used, performance metrics, distribution of classification results in terms how much is done using machine learning vs rule-based logic, trend analysis and levels of confidence which indicate how much manual work is required. An example of such a dashboard is shown below:</p>
+<li>Build in a monitoring dashboard which has the basic information summarising the models used, performance metrics, distribution of classification results in terms how much is done using machine learning vs rule-based logic, trend analysis and levels of confidence which indicate how much manual work is required. An example of such a dashboard is shown below:</li>
+</ul>
 <p><img src="/uploads/governance-dashboard.png" alt=""></p>
-</li>
-<li>
-<p>Written documentation on the solution provided. Adequate training to our tax professionals to understand the methodology being used from high-level and the meaning of the components in the monitoring dashboard. The training should also allow the tax professionals to be aware of when to intervene manually, assess risks and/or enquire for more details from the solution provider.</p>
-</li>
-<li>
-<p>The model used should be refreshed and manually checked periodically such as on a quarterly or bi-annually basis using recent training and testing data. This is to ensure the models are indeed performing at the accuracy level we expected and mitigating the risk of concept and model drifts without monitoring.</p>
-</li>
-<li>
-<p>In the long run, the checks and refresh of the model should be built into codebase or using publicly available machine learning model governance package to ensure automated governance is in place without the need of step 3).</p>
-</li>
+<ul>
+<li>Written documentation on the solution provided. Adequate training to our tax professionals to understand the methodology being used from high-level and the meaning of the components in the monitoring dashboard. The training should also allow the tax professionals to be aware of when to intervene manually, assess risks and/or enquire for more details from the solution provider.</li>
+<li>The model used should be refreshed and manually checked periodically such as on a quarterly or bi-annually basis using recent training and testing data. This is to ensure the models are indeed performing at the accuracy level we expected and mitigating the risk of concept and model drifts without monitoring.</li>
+<li>In the long run, the checks and refresh of the model should be built into codebase or using publicly available machine learning model governance package to ensure automated governance is in place without the need of step 3).</li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
 <p>As machine learning increasingly integrates into tax processes with wide-ranging consequences, from computer vision for invoice processing to natural language processing for audit text analytics, there is a need for models to be transparent, unbiased, traceable and robust. There are as yet no broadly-adopted standard approaches to ensure that models meet these requirements. Tax professionals need to be vigilant and be prepared to answer questions from future tax audits on tax work prepared by machine learning models.</p>
