@@ -30,7 +30,8 @@ Based on the risk analyses, I implemented a series of measures to improve the go
 
 * Build in a monitoring dashboard which has the basic information summarising the models used, performance metrics, distribution of classification results in terms how much is done using machine learning vs rule-based logic, trend analysis and levels of confidence which indicate how much manual work is required. An example of such a dashboard is shown below:
 
-  ![](/uploads/governance-dashboard.png)
+![](/uploads/governance-dashboard.png)
+
 * Written documentation on the solution provided. Adequate training to our tax professionals to understand the methodology being used from high-level and the meaning of the components in the monitoring dashboard. The training should also allow the tax professionals to be aware of when to intervene manually, assess risks and/or enquire for more details from the solution provider.
 * The model used should be refreshed and manually checked periodically such as on a quarterly or bi-annually basis using recent training and testing data. This is to ensure the models are indeed performing at the accuracy level we expected and mitigating the risk of concept and model drifts without monitoring.
 * In the long run, the checks and refresh of the model should be built into codebase or using publicly available machine learning model governance package to ensure automated governance is in place without the need of step 3).
