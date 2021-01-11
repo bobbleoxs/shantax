@@ -39,6 +39,6 @@ For the first three categories, on the other hand, much of the data remain unstr
 
 It is certainly possible to build some natural language processing element into the process of reviewing the unstructured data but the built process itself requires domain expertise and meaningful interpretation. I worked on an audit text analysis engine. The biggest challenge I faced there was to meaningfully extract entities and relations within the vast amount of TP audit files and obtain insights from the extractions.
 
-### Concluding thoughts
+### Concluding Thoughts
 
 This blog discussed technology in TP in two main parts: data and applications. From experience, to set up a TP specific data store can be very difficult, given TP data is often nested within several ERPs from finance to supply chain, requiring buy-in and coordination from several teams. As a result, a top-down approach from prototyping specific business requirements may prove better to acquire stakeholders' buy-in and scale up thereafter.
