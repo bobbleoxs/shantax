@@ -1,6 +1,6 @@
 ---
 title: Data Visualisation in Tax
-date: 2018-10-09T10:00:00+00:00
+date: 2018-10-09T10:00:00.000+00:00
 slug: data-visualisation-in-tax
 
 ---
@@ -13,10 +13,10 @@ I believe modern data visualisation in tax should increasingly serve the users w
 
 I explain this thinking with an example in transfer pricing below.
 
-**Using interactive chord diagram to represent intercompany cross border transactions**
+#### **Using an interactive chord diagram to represent intercompany cross border transactions**
 
 ![](/uploads/chord-diagram.png)
 
-In transfer pricing, I deal with a lot of cross-border intercompany transactions. Due to tax rate variance in different countries there is a need to examine these transactions carefully to understand the pricing of it and ensure fair tax bases in respective countries. Typically these are documented in very long, messy spreadsheet in Excel. I was inpired by the chord diagram application in marketing to explain brand loyalty by [Nadieh Bremer](https://twitter.com/NadiehBremer), and applied it to transfer pricing transactions. [Here](http://htmlpreview.github.io/?https://github.com/bobbleoxs/dataviz_internl_trans/blob/master/IntlTransViz/ddb.html) is the demo I did using interactive chord diagram to represent cross border service transactions.
+In transfer pricing, I deal with a lot of cross-border intercompany transactions. Due to tax rate variance in different countries, there is a need to examine these transactions carefully to understand the pricing of it and ensure fair tax bases in respective countries. Typically these are documented in the long, messy spreadsheets in Excel. I was inspired by the chord diagram application in marketing to explain brand loyalty by [Nadieh Bremer](https://twitter.com/NadiehBremer) and applied it to transfer pricing transactions. [Here](http://htmlpreview.github.io/?https://github.com/bobbleoxs/dataviz_internl_trans/blob/master/IntlTransViz/ddb.html) is the demo I made using an interactive chord diagram to represent cross border service transactions.
 
 \*_All data used were simulated._
