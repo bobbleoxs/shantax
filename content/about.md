@@ -1,5 +1,6 @@
 +++
 date = 2020-12-27T00:00:00Z
+draft = true
 title = "About"
 [menu.main]
 weight = 2
