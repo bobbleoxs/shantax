@@ -1,9 +1,11 @@
 +++
 date = 2020-11-27T11:25:00Z
 slug = "technology-for-transfer-pricing"
-title = "Technology for Transfer Pricing"
+title = "Technology for Transfer Pricing (🗞published)"
 
 +++
+This article is published on [Bloomberg Tax 17 Jun 2021](https://news.bloombergtax.com/daily-tax-report/technology-for-transfer-pricing).
+
 My tax technology journey starts with transfer pricing ("TP") given much of the TP work involves tailored [data analytics](https://shan.tax/posts/cbcr-analysis/) and [visualisation](https://shan.tax/posts/data-visualisation-in-tax/). For technical correspondence with tax authorities, I also provided econometric based statistical analyses. For multinational companies, TP is a highly visible area of tax with governments agreeing to exchange data and hence many potential technology applications. It is therefore desirable to establish a modern data-driven TP management in-house with a systematic overarching design. The diagram below helps to demonstrate how different pieces fit together.
 
 ![](/uploads/tp-tech-overview.png)
