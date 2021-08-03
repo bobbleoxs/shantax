@@ -16,5 +16,3 @@ src="https://www.canva.com/design/DAEl_iquao8/view?embed">
 </iframe>
 
 </div>
-
-<a href="https://www.canva.com/design/DAEl_iquao8/view?utm_content=DAEl_iquao8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">ShanSun - Transfer Pricing</a> by Shanx Sun
