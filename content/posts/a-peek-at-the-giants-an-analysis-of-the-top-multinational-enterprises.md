@@ -1,7 +1,7 @@
 +++
 date = 2019-10-17T09:00:00Z
 slug = "peeking-into-the-giants"
-title = "Peeking into the Giants: Analysing the ADIMA Database"
+title = "Peeking into the Giants: Analysing the ADIMA Database (🗞published)"
 
 +++
 _This blog was first published on medium.com and Analytics Vidhya News Bytes_
@@ -79,4 +79,4 @@ References:
 
 (3) Dispersion is measured by the number of countries an MNE has presence over the total number of countries.
 
-## 
+##
