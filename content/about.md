@@ -1,5 +1,5 @@
 +++
-date = 2021-08-03T13:00:00Z
+date = 2021-08-02T13:00:00Z
 title = "About"
 [menu.main]
 weight = 2
