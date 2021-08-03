@@ -1,5 +1,6 @@
 +++
 date = 2020-11-27T11:25:00Z
+draft = true
 slug = "technology-for-transfer-pricing"
 title = "Technology for Transfer Pricing (🗞published)"
 
