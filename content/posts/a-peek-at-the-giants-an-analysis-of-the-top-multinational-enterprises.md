@@ -1,5 +1,5 @@
 +++
-date = 2019-10-17T09:00:00Z
+date = 2020-10-17T09:00:00Z
 slug = "peeking-into-the-giants"
 title = "Peeking into the Giants: Analysing the ADIMA Database (🗞published)"
 
