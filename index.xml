@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://shan.tax/about/</link>
@@ -16,6 +16,15 @@
       <guid>https://shan.tax/about/</guid>
       <description>⬇️ Download as PDF
 You can download my latest CV here.</description>
+    </item>
+    
+    <item>
+      <title>Challenges in Modernising Withholding Tax</title>
+      <link>https://shan.tax/posts/challengesinmodernisingwithholdingtax/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://shan.tax/posts/challengesinmodernisingwithholdingtax/</guid>
+      <description></description>
     </item>
     
     <item>
