@@ -5,7 +5,7 @@ title = "About"
 weight = 2
 
 +++
-### Hiya, I'm **Shan 👩🏻‍💻**!
+## Hiya, I'm **Shan 👩🏻‍💻**!
 
 ##### 
 
