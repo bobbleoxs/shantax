@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://shan.tax/about/</link>
@@ -15,17 +15,6 @@
       
       <guid>https://shan.tax/about/</guid>
       <description>Hiya, I&amp;rsquo;m Shan 👩🏻‍💻!  Welcome to my personal website. By profession, I am a tax innovation lead, based in the bustling City of London, UK. The website was originally set up to host my writings on tax and tax technology to keep track of things I learned at work. It gradually grew into a place where I put all my writings on work, technology and pretty much everything I find interesting enough to dig a bit deeper 🤓</description>
-    </item>
-    
-    <item>
-      <title>Challenges in Modernising Withholding Tax</title>
-      <link>https://shan.tax/posts/challengesinmodernisingwithholdingtax/</link>
-      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://shan.tax/posts/challengesinmodernisingwithholdingtax/</guid>
-      <description>I. What is withholding tax?
-II. Why do we need to modernise the process of collecting withholding taxes?
-III. Challenges in modernising withholding taxes</description>
     </item>
     
     <item>
