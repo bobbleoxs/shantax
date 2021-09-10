@@ -14,6 +14,15 @@ WHT can be applied to different types of remuneration, such as dividend, interes
 
 WHT includes both domestic withholding tax (in-country or locally) and international withholding, subject to local tax law or double tax treaties as discussed above.
 
-### II. Why do we need to modernise the process of collecting withholding taxes?
+### II. Challenges with withholding taxes
 
-### III. Challenges in creating a withholding tax engine
+Like many other taxes, the data source for withholding tax can be a mixture of online and offline collection. From the account payable (AP) side, companies often receive invoices, include them in the ERP system with relevant accounting treatments, leaving withholding tax as an afterthought. 
+
+### III. Building a withholding tax engine
+
+I've split it into a 4 step process: 
+
+1. Check the information available on Sales Invoices (SI), Good Receipts (GR), and Purchase Order (PO); 
+2. Look through the rules per country. Each country would have negotiated separate tax treaties, so it makes sense to model the determination engine on a country basis;
+3. Split the withholding tax rules into two parts, one that I could hard code, the other I may need to rely on some language model to make judgment;
+4. Build an UI to host the engine
