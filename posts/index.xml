@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 23:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Withholding Tax Determination Engine</title>
+      <link>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</link>
+      <pubDate>Sat, 11 Sep 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</guid>
+      <description>I. What is withholding tax? Withholding tax (&amp;ldquo;WHT&amp;rdquo;) refers to an amount of tax withheld at source at a certain rate determined by local tax law. Typically, the rate also varies if the seller and buyer are situated in two countries and there are specific double tax treaties between the tax authorities, respectively.
+WHT can be applied to different types of remuneration, such as dividend, interest, royalty, commission, fees and rentals, as well as transactions, i.</description>
+    </item>
+    
     <item>
       <title>Building a Personal Website for Free</title>
       <link>https://shan.tax/posts/building-a-personal-website-for-free/</link>
