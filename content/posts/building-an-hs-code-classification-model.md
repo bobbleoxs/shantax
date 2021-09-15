@@ -1,6 +1,5 @@
 +++
 date = 2021-06-08T23:00:00Z
-draft = true
 slug = "BuildinganHsCodeClassification"
 title = "Building an HS Code Classification Model"
 
