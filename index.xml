@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Sun, 15 Aug 2021 23:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Building a Withholding Tax Determination Engine</title>
-      <link>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</link>
-      <pubDate>Sun, 15 Aug 2021 23:00:00 +0000</pubDate>
-      
-      <guid>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</guid>
-      <description>I. What is withholding tax? Withholding tax (&amp;ldquo;WHT&amp;rdquo;) refers to an amount of tax withheld at source at a certain rate determined by local tax law. Typically, the rate also varies if the seller and buyer are situated in two countries and there are specific double tax treaties between the tax authorities, respectively.
-WHT can be applied to different types of remuneration, such as dividend, interest, royalty, commission, fees and rentals, as well as transactions, i.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 21 Jun 2021 23:00:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://shan.tax/about/</link>
@@ -25,6 +15,16 @@ WHT can be applied to different types of remuneration, such as dividend, interes
       
       <guid>https://shan.tax/about/</guid>
       <description>Hiya, I&amp;rsquo;m Shan 👩🏻‍💻!  Welcome to my personal website. By profession, I am a tax innovation lead, based in the bustling City of London, UK. The website was originally set up to host my writings on tax and tax technology to keep track of things I learned at work. It gradually grew into a place where I put all my writings on work, technology and pretty much everything I find interesting enough to dig a bit deeper 🤓</description>
+    </item>
+    
+    <item>
+      <title>Building a Withholding Tax Determination Engine</title>
+      <link>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</link>
+      <pubDate>Mon, 21 Jun 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</guid>
+      <description>I. What is withholding tax? Withholding tax (&amp;ldquo;WHT&amp;rdquo;) refers to an amount of tax withheld at source at a certain rate determined by local tax law. The most common example is payroll taxes withheld and paid by employers on employee wages. Withholding taxes also apply where sellers and buyers are situated in different jurisdictions, with rates varying by country or due to specific double tax treaties between tax authorities.
+WHT can be applied to different types of remuneration, such as dividend, interest, royalty, commission, fees, and rentals, as well as transactions, i.</description>
     </item>
     
     <item>
