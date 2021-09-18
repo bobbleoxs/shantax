@@ -1,5 +1,5 @@
 +++
-date = 2021-08-04T23:00:00Z
+date = 2019-08-04T23:00:00Z
 draft = true
 slug = "Whatitmeanstobealeadintaxinnovation"
 title = "What it means to be a lead in tax innovation"
