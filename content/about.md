@@ -17,10 +17,8 @@ Some of my writings are published but if you are curious about all the random st
 
 * 💻 works full time as Lead for Tax Innovation, straddling tax/finance and data science
 * 🌎 has travelled to 49 countries, mostly solo
-* 🎨 has been drawing since 4 years old and never given up
-* 📚 translated and published three books in mainland China - Breakfast with Lucien (2015), The Burglar Who
-
-  Counted the Spoons (2018), and Broken Window (2019) 
+* 🎨 has been drawing since 4 years old and has never quite given up
+* 📚 translated and published three books in mainland China - Breakfast with Lucien (2015), The Burglar Who Counted the Spoons (2018), and Broken Window (2019)
 * 🇨🇳🇯🇵 can speak Chinese fluently and some basic Japanese
 * 🙇🏻‍♀️ is always learning something new, every day
 
