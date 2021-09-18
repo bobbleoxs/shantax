@@ -9,9 +9,9 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Building an HS Code Classification Model" />
-<meta property="og:description" content="I. What is HS code? International trade relies on HS (stands for Harmonised System) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.
-HS code is used by all countries globally to classify imported and exported goods down to 6-digit. The HS code is split into three groups of two codes.
- First two digits - categorize product (e.g. garment) Second two digits - classify further (e." />
+<meta property="og:description" content="I. What are HS codes? International trade relies on Harmonized System (“HS”) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.
+HS codes are used by all countries globally to classify imported and exported goods down to 6-digits. The HS code is split into three two-digit groups:
+ First two digits - categorize product (e.g. “61” for Apparel &amp; Clothing) Second two digits - classify further (e." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shan.tax/posts/buildinganhscodeclassification/" />
 <meta property="article:published_time" content="2021-06-08T23:00:00+00:00" />
@@ -19,9 +19,9 @@ HS code is used by all countries globally to classify imported and exported good
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Building an HS Code Classification Model"/>
-<meta name="twitter:description" content="I. What is HS code? International trade relies on HS (stands for Harmonised System) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.
-HS code is used by all countries globally to classify imported and exported goods down to 6-digit. The HS code is split into three groups of two codes.
- First two digits - categorize product (e.g. garment) Second two digits - classify further (e."/>
+<meta name="twitter:description" content="I. What are HS codes? International trade relies on Harmonized System (“HS”) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.
+HS codes are used by all countries globally to classify imported and exported goods down to 6-digits. The HS code is split into three two-digit groups:
+ First two digits - categorize product (e.g. “61” for Apparel &amp; Clothing) Second two digits - classify further (e."/>
 
   
   
@@ -152,7 +152,7 @@ HS code is used by all countries globally to classify imported and exported good
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshan.tax%2fposts%2fbuildinganhscodeclassification%2f&name=Building%20an%20HS%20Code%20Classification%20Model&description=I.%20What%20is%20HS%20code%3f%20International%20trade%20relies%20on%20HS%20%28stands%20for%20Harmonised%20System%29%20codes%20to%20classify%20goods%20transported%20across%20borders.%20Incorrect%20HS%20code%20classification%20may%20result%20in%20penalties%20and%20seizure%20of%20goods.%0aHS%20code%20is%20used%20by%20all%20countries%20globally%20to%20classify%20imported%20and%20exported%20goods%20down%20to%206-digit.%20The%20HS%20code%20is%20split%20into%20three%20groups%20of%20two%20codes.%0a%20First%20two%20digits%20-%20categorize%20product%20%28e.g.%20garment%29%20Second%20two%20digits%20-%20classify%20further%20%28e.">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshan.tax%2fposts%2fbuildinganhscodeclassification%2f&name=Building%20an%20HS%20Code%20Classification%20Model&description=I.%20What%20are%20HS%20codes%3f%20International%20trade%20relies%20on%20Harmonized%20System%20%28%e2%80%9cHS%e2%80%9d%29%20codes%20to%20classify%20goods%20transported%20across%20borders.%20Incorrect%20HS%20code%20classification%20may%20result%20in%20penalties%20and%20seizure%20of%20goods.%0aHS%20codes%20are%20used%20by%20all%20countries%20globally%20to%20classify%20imported%20and%20exported%20goods%20down%20to%206-digits.%20The%20HS%20code%20is%20split%20into%20three%20two-digit%20groups%3a%0a%20First%20two%20digits%20-%20categorize%20product%20%28e.g.%20%e2%80%9c61%e2%80%9d%20for%20Apparel%20%26amp%3b%20Clothing%29%20Second%20two%20digits%20-%20classify%20further%20%28e.">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
@@ -169,9 +169,9 @@ HS code is used by all countries globally to classify imported and exported good
   <ul>
     <li>
       <ul>
-        <li><a href="#i-what-is-hs-code">I. What is HS code?</a></li>
-        <li><a href="#ii-challenges-with-hs-code-classification">II. Challenges with HS code classification</a></li>
-        <li><a href="#iii-building-an-hs-code-classification-model">III. Building an HS code classification model</a></li>
+        <li><a href="#i-what-are-hs-codes"><strong>I. What are HS codes?</strong></a></li>
+        <li><a href="#ii-challenges-with-hs-code-classification"><strong>II. Challenges with HS code classification</strong></a></li>
+        <li><a href="#iii-building-an-hs-code-classification-model"><strong>III. Building an HS code classification model</strong></a></li>
       </ul>
     </li>
   </ul>
@@ -200,38 +200,38 @@ HS code is used by all countries globally to classify imported and exported good
 
   
     <div class="content" itemprop="articleBody">
-      <h3 id="i-what-is-hs-code">I. What is HS code?</h3>
-<p>International trade relies on HS (stands for Harmonised System) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.</p>
-<p>HS code is used by all countries globally to classify imported and exported goods down to 6-digit. The HS code is split into three groups of two codes.</p>
+      <h3 id="i-what-are-hs-codes"><strong>I. What are HS codes?</strong></h3>
+<p>International trade relies on <a href="https://en.wikipedia.org/wiki/Harmonized_System">Harmonized System</a> (“HS”) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.</p>
+<p>HS codes are used by all countries globally to classify imported and exported goods down to 6-digits. The HS code is split into three two-digit groups:</p>
 <ul>
-<li>First two digits - categorize product (e.g. garment)</li>
-<li>Second two digits -  classify further (e.g. t-shirt)</li>
-<li>Third two digits - specify details of the product (e.g. women cotton t-shirt)</li>
+<li>First two digits - categorize product (e.g. “61” for Apparel &amp; Clothing)</li>
+<li>Second two digits - classify further (e.g. “6109” for t-shirts)</li>
+<li>Third two digits - specify details of the product (e.g. “610910” for cotton t-shirts)</li>
 </ul>
-<p>Individual countries also add in a further group of 2 to 6 digits to describe the goods in even more detail. For example, the US assigns a 10-digit code, of which the last 4 is known as Schedule B number.</p>
-<p>Tariffs and customs duties are imposed on imported and exported goods based on the HS code classification. It is used to recognise any preferential trade agreement.</p>
-<p>The HS code is organized into 21 sections, with 96 chapters in each section, and each chapter is divided into around 5,000 headings and subheadings. The system is enormous. Many factors affect the classification of HS code, including but not limited to product composition, form and use.</p>
-<h3 id="ii-challenges-with-hs-code-classification">II. Challenges with HS code classification</h3>
-<p>Given the variety and volume of goods in international trade, assigning the correct HS code often presents challenges. Some of the major challenges I encountered when working on this project include:</p>
+<p>An additional 2 to 6 digits are added by individual countries to describe the goods in even more detail. For example, the US assigns a 10-digit code, of which the last 4 is known as the <a href="https://www.trade.gov/harmonized-system-hs-codes">Schedule B number</a>.</p>
+<p>Tariffs and customs duties are imposed on imported and exported goods based on their HS code classification. The HS code classification is also used to recognise any preferential trade agreement.</p>
+<p>The Harmonized System is organized into 21 sections, with 96 chapters in each section, and each chapter is divided into around 5,000 headings and subheadings. The system is enormous. Many factors affect the classification of HS codes, including but not limited to product composition, form, and use.</p>
+<h3 id="ii-challenges-with-hs-code-classification"><strong>II. Challenges with HS code classification</strong></h3>
+<p>Given the variety and volume of goods in international trade, assigning the correct HS code often presents challenges. Some major challenges encountered when working on this project include:</p>
 <ul>
-<li>Fragmented data source - like many other taxes, the data source for HS code is not neatly presented, especially in a large multinational organisation. Often there are multiple teams holding one or several pieces of information.</li>
-<li>Inaccurate data - to this day, many countries still rely on human experience to assign the correct HS code to goods for their respective country and purposes, often resulting in the wrong classification.</li>
-<li>Missing out on preferential rates under trade agreements - each country has individually negotiated rates on certain types of goods, but this may not always be considered when it comes to assigning HS code. In addition, trade agreements also change over time, outdated information or ineffective communication from government authorities also could result in incorrect classification.</li>
+<li><strong>Fragmented data source</strong> - like many other taxes, the data source for HS codes is not neatly presented, especially in a large multinational organisation. Often there are multiple teams holding one or several pieces of information.</li>
+<li><strong>Inaccurate data</strong> - to this day, many countries still rely on human experience to assign the correct HS code to goods for their respective country and purposes, often resulting in the wrong classification.</li>
+<li><strong>Missing out on preferential rates under trade agreements</strong> - each country has individually negotiated rates on certain types of goods, but this may not always be considered when it comes to assigning HS codes. In addition, trade agreements also change over time, and outdated information or ineffective communication from government authorities can also result in incorrect classification.</li>
 </ul>
-<h3 id="iii-building-an-hs-code-classification-model">III. Building an HS code classification model</h3>
-<p>Given the significance of HS code in international trade and the various challenges in classifying them correctly, we set out to work on an automated classification model which assigns HS code using algorithms to help the customs team tackle the challenges.</p>
-<p>We aimed to solve the problem on a country by country basis, given each country has its own rules on how many digits go into the HS code and a different set of trade agreements.</p>
-<p>The determination of HS code classification almost solely relies on invoice descriptions. In the spirit of agile working, we started with a prototype for the Philippines only.</p>
+<h3 id="iii-building-an-hs-code-classification-model"><strong>III. Building an HS code classification model</strong></h3>
+<p>Given the significance of HS codes in international trade and the various challenges in classifying them correctly, I set out to create an automated classification model which uses algorithms to assist the customs teams in selecting HS codes.</p>
+<p>I aimed to solve the problem on a country-by-country basis, given each country has its own rules on how many digits go into the HS code and a different set of trade agreements.</p>
+<p>I determine the classification almost solely relying on invoice descriptions. In the spirit of lean working, I started with a prototype for the Philippines only.</p>
 <p>Key parameters of the project are listed below:</p>
 <p><strong>Data</strong></p>
-<p>Only 3000 rows of data are available including invoice description and corresponding HS code (labels). The invoice descriptions are in English.</p>
+<p>Only 3000 rows of data are available including invoice description and corresponding HS code (target “labels” for the algorithm). The invoice descriptions are in English.</p>
 <p><strong>Models</strong></p>
-<p>Given the limited size of data, we sued a combination of machine learning and fuzzy search method with refined weighting;<br>
-We used a genetic algorithm to automatically fine-tune and select the best machine learning model;</p>
+<p>Given the limited size of data, I used a combination of machine learning and fuzzy string matching, with a refined weighting between these two methods;</p>
+<p>I used natural language processing techniques for extracting model features from the invoice descriptions, and a <a href="http://epistasislab.github.io/tpot/" title="genetic algorithm">genetic algorithm</a> to automatically fine-tune and select the best machine learning model;</p>
 <p><strong>Results</strong></p>
-<p>The model results provide the top three most likely HS codes with examples for users to view. The combined model achieved an accuracy of 92%.</p>
+<p>For a given input, the model returns the top three most likely HS codes, along with several examples for each HS code, for users to review. The combined model achieved an accuracy of 92%.</p>
 <p><strong>User interface</strong></p>
-<p>The classification models were wrapped up in the backend of a web app, where users could input their own invoice description for the model to return the top three most likely HS codes.</p>
+<p>The classification model was productionised via a Django-powered web application. The frontend interface allows users to input their own invoice description, whereupon the model then returns the top three most likely HS codes.</p>
 <p><img src="/uploads/screenshot-2021-09-15-at-22-34-57.png" alt=""></p>
 
     </div>
@@ -262,9 +262,9 @@ We used a genetic algorithm to automatically fine-tune and select the best machi
   <ul>
     <li>
       <ul>
-        <li><a href="#i-what-is-hs-code">I. What is HS code?</a></li>
-        <li><a href="#ii-challenges-with-hs-code-classification">II. Challenges with HS code classification</a></li>
-        <li><a href="#iii-building-an-hs-code-classification-model">III. Building an HS code classification model</a></li>
+        <li><a href="#i-what-are-hs-codes"><strong>I. What are HS codes?</strong></a></li>
+        <li><a href="#ii-challenges-with-hs-code-classification"><strong>II. Challenges with HS code classification</strong></a></li>
+        <li><a href="#iii-building-an-hs-code-classification-model"><strong>III. Building an HS code classification model</strong></a></li>
       </ul>
     </li>
   </ul>
@@ -325,7 +325,7 @@ We used a genetic algorithm to automatically fine-tune and select the best machi
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshan.tax%2fposts%2fbuildinganhscodeclassification%2f&name=Building%20an%20HS%20Code%20Classification%20Model&description=I.%20What%20is%20HS%20code%3f%20International%20trade%20relies%20on%20HS%20%28stands%20for%20Harmonised%20System%29%20codes%20to%20classify%20goods%20transported%20across%20borders.%20Incorrect%20HS%20code%20classification%20may%20result%20in%20penalties%20and%20seizure%20of%20goods.%0aHS%20code%20is%20used%20by%20all%20countries%20globally%20to%20classify%20imported%20and%20exported%20goods%20down%20to%206-digit.%20The%20HS%20code%20is%20split%20into%20three%20groups%20of%20two%20codes.%0a%20First%20two%20digits%20-%20categorize%20product%20%28e.g.%20garment%29%20Second%20two%20digits%20-%20classify%20further%20%28e.">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshan.tax%2fposts%2fbuildinganhscodeclassification%2f&name=Building%20an%20HS%20Code%20Classification%20Model&description=I.%20What%20are%20HS%20codes%3f%20International%20trade%20relies%20on%20Harmonized%20System%20%28%e2%80%9cHS%e2%80%9d%29%20codes%20to%20classify%20goods%20transported%20across%20borders.%20Incorrect%20HS%20code%20classification%20may%20result%20in%20penalties%20and%20seizure%20of%20goods.%0aHS%20codes%20are%20used%20by%20all%20countries%20globally%20to%20classify%20imported%20and%20exported%20goods%20down%20to%206-digits.%20The%20HS%20code%20is%20split%20into%20three%20two-digit%20groups%3a%0a%20First%20two%20digits%20-%20categorize%20product%20%28e.g.%20%e2%80%9c61%e2%80%9d%20for%20Apparel%20%26amp%3b%20Clothing%29%20Second%20two%20digits%20-%20classify%20further%20%28e.">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
