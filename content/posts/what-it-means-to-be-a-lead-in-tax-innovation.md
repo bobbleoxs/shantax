@@ -1,6 +1,5 @@
 +++
 date = 2019-08-04T23:00:00Z
-draft = true
 slug = "Whatitmeanstobealeadintaxinnovation"
 title = "Thoughts on What it Means to be a Lead in Tax Innovation"
 
