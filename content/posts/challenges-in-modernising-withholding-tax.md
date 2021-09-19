@@ -10,7 +10,7 @@ Withholding tax ("WHT") refers to an amount of tax withheld at source at a certa
 
 WHT can be applied to different types of remuneration, such as dividend, interest, royalty, commission, fees, and rentals, as well as transactions, i.e. digital transactions. The recipient (payee) could be employees, business partners, and overseas entities.
 
-WHT is not the same as VAT or other forms of indirect taxes. In some countries, VAT charged by a provider has to be withheld by the payer and paid to the tax authorities, but this is not a WHT.
+> WHT is not the same as VAT or other forms of indirect taxes. In some countries, VAT charged by a provider has to be withheld by the payer and paid to the tax authorities, but this is not a WHT.
 
 WHT includes both domestic withholding tax (in-country or locally) and international withholding, subject to local tax law or double tax treaties.
 
@@ -23,7 +23,7 @@ A solution to these problems is to build a “withholding tax engine” which ca
 * **Fragmented data sources** - where sales/purchase data was detached from withholding tax posting and added on afterward.
 * **Missing data** - invoices come in different forms and types, sometimes handwritten. There are inevitably missing fields that may otherwise be valuable information in determining the correct withholding tax rate.
 * **Mismatched or inconsistent data** - given the variety of invoices, the information is often inconsistent, resulting in bad quality data; this requires numerous edge cases to be accounted for.
-* **Small data size** - despite being a transaction-level tax, there is limited data that is complete, accurate, and consistent; this means supervised learning models utilising natural language processing techniques are less appropriate. Unsupervised learning is therefore a more appropriate method to explore first.
+* **Small data size** - despite being a transaction-level tax, there is limited data that is complete, accurate, and consistent; this means supervised learning models utilizing natural language processing techniques are less appropriate. Unsupervised learning is therefore a more appropriate method to explore first.
 * **Significant differences in country rules** - unlike VAT or GST, countries don't always have the same tax base for withholding taxes. It’s a spider web of rules which requires considerations on a country-by-country basis.
 * **Double tax treaties** - other than the differences in underlying country rules, each country may have also negotiated different treaty agreements on withholding tax rates for each tax category (e.g. royalties, dividend, interest), adding further complexities.
 
