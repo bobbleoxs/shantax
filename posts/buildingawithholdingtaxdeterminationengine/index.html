@@ -201,7 +201,9 @@ WHT can be applied to different types of remuneration, such as dividend, interes
       <h3 id="i-what-is-withholding-tax"><strong>I. What is withholding tax?</strong></h3>
 <p>Withholding tax (&ldquo;WHT&rdquo;) refers to an amount of tax withheld at source at a certain rate determined by local tax law. The most common example is payroll taxes withheld and paid by employers on employee wages. Withholding taxes also apply where sellers and buyers are situated in different jurisdictions, with rates varying by country or due to specific double tax treaties between tax authorities.</p>
 <p>WHT can be applied to different types of remuneration, such as dividend, interest, royalty, commission, fees, and rentals, as well as transactions, i.e. digital transactions. The recipient (payee) could be employees, business partners, and overseas entities.</p>
+<blockquote>
 <p>WHT is not the same as VAT or other forms of indirect taxes. In some countries, VAT charged by a provider has to be withheld by the payer and paid to the tax authorities, but this is not a WHT.</p>
+</blockquote>
 <p>WHT includes both domestic withholding tax (in-country or locally) and international withholding, subject to local tax law or double tax treaties.</p>
 <h3 id="ii-withholding-tax-challenges"><strong>II. Withholding tax challenges</strong></h3>
 <p>Like many other taxes, withholding tax data can be collected via a mixture of online and offline sources. From the account payable (AP) side, companies often receive invoices, include them in the ERP system with relevant accounting treatments, leaving withholding tax as an afterthought.</p>
@@ -210,7 +212,7 @@ WHT can be applied to different types of remuneration, such as dividend, interes
 <li><strong>Fragmented data sources</strong> - where sales/purchase data was detached from withholding tax posting and added on afterward.</li>
 <li><strong>Missing data</strong> - invoices come in different forms and types, sometimes handwritten. There are inevitably missing fields that may otherwise be valuable information in determining the correct withholding tax rate.</li>
 <li><strong>Mismatched or inconsistent data</strong> - given the variety of invoices, the information is often inconsistent, resulting in bad quality data; this requires numerous edge cases to be accounted for.</li>
-<li><strong>Small data size</strong> - despite being a transaction-level tax, there is limited data that is complete, accurate, and consistent; this means supervised learning models utilising natural language processing techniques are less appropriate. Unsupervised learning is therefore a more appropriate method to explore first.</li>
+<li><strong>Small data size</strong> - despite being a transaction-level tax, there is limited data that is complete, accurate, and consistent; this means supervised learning models utilizing natural language processing techniques are less appropriate. Unsupervised learning is therefore a more appropriate method to explore first.</li>
 <li><strong>Significant differences in country rules</strong> - unlike VAT or GST, countries don&rsquo;t always have the same tax base for withholding taxes. It’s a spider web of rules which requires considerations on a country-by-country basis.</li>
 <li><strong>Double tax treaties</strong> - other than the differences in underlying country rules, each country may have also negotiated different treaty agreements on withholding tax rates for each tax category (e.g. royalties, dividend, interest), adding further complexities.</li>
 </ul>
