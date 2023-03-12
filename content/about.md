@@ -15,11 +15,13 @@ Some of my writings are published but if you are curious about all the random st
 
 **About me:**
 
-* 💻 works full time as Lead for Tax Innovation, straddling tax/finance and data science
-* 🌎 has travelled to 49 countries, mostly solo
-* 🎨 has been drawing since 4 years old and has never quite given up
-* 📚 translated and published three books in mainland China - Breakfast with Lucien (2015), The Burglar Who Counted the Spoons (2018), and Broken Window (2019)
-* 🇨🇳🇯🇵 can speak Chinese fluently and some basic Japanese
-* 🙇🏻‍♀️ is always learning something new, every day
+* 💻 works full time as Tax Technology Lead, straddling tax/finance and data science/engineering;
+* 🌎 has travelled to 52 countries, mostly solo;
+* 🎨 has been drawing since 4 years old and has never quite given up - currently learning Japanese woodcut prints (Ukiyo-e) (2023);
+* 🛠️ graduated from a Product Foundry program at Brite Brighton as the first cohort in June 2022 and started my maker journey using 3D printer (FDM and resin), laser cutter (Trotec Speedy 300) and CNC machines;
+* 🧵 started taking creative sewing projects (fabric and leather) more seriously since Jan 2022, currently learning pattern cutting;
+* 📚 translated and published three books in mainland China - Breakfast with Lucien (2015), The Burglar Who Counted the Spoons (2018), and Broken Window (2019);
+* 🇨🇳🇯🇵 can speak Mandarian Chinese natively and some basic Japanese;
+* 🙇🏻‍♀️ is always learning something new, every day.
 
 If you are on the more serious side, you can see my CV/resume here 👉 ⬇️ [Download as a PDF](https://github.com/bobbleoxs/shantax/blob/master/static/uploads/Shan%20Sun%20Mar%2023.pdf "Download as PDF").
