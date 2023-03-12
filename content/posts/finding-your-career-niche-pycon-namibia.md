@@ -1,7 +1,7 @@
 +++
 date = 2023-02-23T11:07:00Z
-draft = true
 title = "Finding Your Career Niche - A PyCon Namibia 2023 Talk"
+slug = "namibia"
 
 +++
 
