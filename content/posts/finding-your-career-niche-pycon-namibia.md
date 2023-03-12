@@ -6,4 +6,4 @@ slug = "namibia"
 +++
 
 My talk slides on "How To Find Your Career Niche" for PyCon Namibia 2023
-can be [found here](https://www.canva.com/design/DAFbVWjPugY/mAcGiQ2rPa-3yc3FRrbcAQ/view).
+can be [found here](https://github.com/bobbleoxs/shantax/blob/master/static/uploads/Finding%20Your%20Career%20Niche%20slides.pdf).
