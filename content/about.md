@@ -22,4 +22,4 @@ Some of my writings are published but if you are curious about all the random st
 * 🇨🇳🇯🇵 can speak Chinese fluently and some basic Japanese
 * 🙇🏻‍♀️ is always learning something new, every day
 
-If you are on the more serious side, you can see my CV/resume here 👉 ⬇️ [Download as a PDF](https://github.com/bobbleoxs/shantax/blob/master/static/uploads/Shan%20Sun%20Resume%20Aug21.pdf "Download as PDF").
+If you are on the more serious side, you can see my CV/resume here 👉 ⬇️ [Download as a PDF]([https://github.com/bobbleoxs/shantax/blob/master/static/uploads/Shan%20Sun%20Mar%2023.pdf] "Download as PDF").
