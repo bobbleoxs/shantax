@@ -1,5 +1,5 @@
 +++ 
-date = 2022-12-21T17:53:00:00Z 
+date = 2022-12-21T17:53:00Z 
 slug = "stitch-success" 
 title = "🪡Stitching Success - 3 Tax Tech Wisdom from Dressmaking💻"
 +++
