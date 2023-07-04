@@ -1,5 +1,5 @@
 +++ 
-date = 2022-11-21T18:37:00:00Z 
+date = 2022-11-21T14:48:00Z
 slug = "ditt" 
 title = "🎉A New Milestone in Tax Education: Introducing the CIOT Diploma in Tax Technology🎉"
 +++
