@@ -16,7 +16,7 @@ Similarly, in tax technology, you can't just dive headlong into problem-solving 
 
 In dressmaking, the devil truly is in the details. Some fabric frays, and while it's tempting to save time by cutting corners - especially if those seams are hidden away from sight - overlocking every piece of fabric ensures the end garment is durable. A frayed corner might seem minor, but it could eventually ruin the integrity of the entire piece of garment.
 
-![excel dress](./uploads/excel%20dress.png)
+![excel dress](/uploads/excel%20dress.png)
 
 Tax technology projects are no different. When working towards a deadline, we often wonder just how far a feature can be developed, a process can be automated, or a product can be released. But rushing through, cutting corners, or overlooking proper testing to test code integrity and edge case handling, just like in dressmaking, can lead to tech debt, undesirable outcomes, and even more serious consequences in the long run.
 
