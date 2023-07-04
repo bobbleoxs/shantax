@@ -1,88 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://shan.tax/posts/namibia/</loc>
     <lastmod>2023-02-23T11:07:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/</loc>
     <lastmod>2023-02-23T11:07:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/</loc>
     <lastmod>2023-02-23T11:07:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://shan.tax/posts/ditt/</loc>
+    <lastmod>2022-11-21T14:48:00+00:00</lastmod>
+  </url><url>
     <loc>https://shan.tax/about/</loc>
     <lastmod>2021-08-02T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</loc>
     <lastmod>2021-06-21T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/buildinganhscodeclassification/</loc>
     <lastmod>2021-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/building-a-personal-website-for-free/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/technology-for-transfer-pricing/</loc>
     <lastmod>2020-11-27T11:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/peeking-into-the-giants/</loc>
     <lastmod>2020-10-17T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/machine-learning-governance-in-tax/</loc>
     <lastmod>2020-03-10T14:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/whatitmeanstobealeadintaxinnovation/</loc>
     <lastmod>2019-08-04T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/data-user-participation-value-creation/</loc>
     <lastmod>2018-12-10T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/data-visualisation-in-tax/</loc>
     <lastmod>2018-10-09T10:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/skills-for-future-tax-professionals/</loc>
     <lastmod>2018-07-02T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/posts/cbcr-analysis/</loc>
     <lastmod>2017-12-12T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shan.tax/tags/</loc>
   </url>
-  
 </urlset>

@@ -18,6 +18,16 @@
     </item>
     
     <item>
+      <title>🎉A New Milestone in Tax Education: Introducing the CIOT Diploma in Tax Technology🎉</title>
+      <link>https://shan.tax/posts/ditt/</link>
+      <pubDate>Mon, 21 Nov 2022 14:48:00 +0000</pubDate>
+      
+      <guid>https://shan.tax/posts/ditt/</guid>
+      <description>I am thrilled to finally lift the curtain on a project that has been in the making for the past year and a half - the launch of the Chartered Institute of Taxation&amp;rsquo;s (CIOT) innovative new qualification, the Diploma in Tax Technology (DITT)! 🍾🎊 This has truly been a labour of love and a project I am immensely proud of.
+The journey towards the creation of the DITT started years ago, while working alongside generous colleagues who were always willing to share their wisdom and experiences.</description>
+    </item>
+    
+    <item>
       <title>Building a Withholding Tax Determination Engine</title>
       <link>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</link>
       <pubDate>Mon, 21 Jun 2021 23:00:00 +0000</pubDate>
@@ -35,7 +45,7 @@ WHT can be applied to different types of remuneration, such as dividend, interes
       <guid>https://shan.tax/posts/buildinganhscodeclassification/</guid>
       <description>I. What are HS codes? International trade relies on Harmonized System (“HS”) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.
 HS codes are used by all countries globally to classify imported and exported goods down to 6-digits. The HS code is split into three two-digit groups:
- First two digits - categorize product (e.g. “61” for Apparel &amp;amp; Clothing) Second two digits - classify further (e.</description>
+First two digits - categorize product (e.g. “61” for Apparel &amp;amp; Clothing) Second two digits - classify further (e.</description>
     </item>
     
     <item>
@@ -106,7 +116,7 @@ When I first became a manager, I always made it clear to junior team members tha
       <guid>https://shan.tax/posts/data-visualisation-in-tax/</guid>
       <description>Tax and finance teams use an excessive amount of dashboards. The contents are often limited to simple bar charts and histograms. However, tax data is multi-dimensional which means the simple two-dimensional representations may no longer be sufficient.
 I believe modern data visualisation in tax should increasingly serve the users with more depth in that it could allow users to:
- interact with data, explore and tell a story from the data, and/or; directly enable an action point from the visualisation  I explain this thinking with an example in transfer pricing below.</description>
+interact with data, explore and tell a story from the data, and/or; directly enable an action point from the visualisation I explain this thinking with an example in transfer pricing below.</description>
     </item>
     
     <item>
@@ -126,7 +136,7 @@ I suspect similar questions are on many non-tech industry professionals’ mind.
       <pubDate>Tue, 12 Dec 2017 23:00:00 +0000</pubDate>
       
       <guid>https://shan.tax/posts/cbcr-analysis/</guid>
-      <description>Background OECD’s BEPS project Action 13 provides a template for multinational enterprises (“MNEs”) to report annually and for each tax jurisdiction in which they do business the information set out therein. This report is called the Country-by-Country Report (“CBCR”). The CBCR template requires two tables of MNEs&#39; financial and operational information.
+      <description>Background OECD’s BEPS project Action 13 provides a template for multinational enterprises (“MNEs”) to report annually and for each tax jurisdiction in which they do business the information set out therein. This report is called the Country-by-Country Report (“CBCR”). The CBCR template requires two tables of MNEs&amp;rsquo; financial and operational information.
 Exploratory data analysis In the first year of submitting CBCR, I wanted to use Python instead of Excel to see how one may get more insights from the data collected in CBCR.</description>
     </item>
     
