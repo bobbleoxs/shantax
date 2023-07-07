@@ -1,6 +1,6 @@
 +++
 date = 2023-02-23T11:07:00Z
-title = "Finding Your Career Niche - A PyCon Namibia 2023 Talk"
+title = "Finding Your Career Niche - A Talk at PyCon Namibia 2023"
 slug = "namibia"
 
 +++
