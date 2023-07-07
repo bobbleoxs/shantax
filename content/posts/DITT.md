@@ -1,7 +1,7 @@
 +++ 
 date = 2022-11-21T14:48:00Z
 slug = "ditt" 
-title = "🎉A New Milestone in Tax Education: Introducing the CIOT Diploma in Tax Technology🎉"
+title = "A New Milestone in Tax Education: Introducing the CIOT Diploma in Tax Technology🎉"
 +++
 
 I am thrilled to finally lift the curtain on a project that has been in the making for the past year and a half - the launch of the Chartered Institute of Taxation's (CIOT) innovative new qualification, the [Diploma in Tax Technology (DITT)](https://ciotditt.tsc.events/)! 🍾🎊 This has truly been a labour of love and a project I am immensely proud of.
