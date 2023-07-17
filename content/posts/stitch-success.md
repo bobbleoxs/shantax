@@ -1,7 +1,7 @@
 +++ 
 date = 2022-12-21T17:53:00Z 
 slug = "stitch-success" 
-title = "🪡Stitching Success - 3 Tax Tech Wisdom from Dressmaking💻"
+title = "🪡Stitching Success - 3 Tax Tech Wisdoms from Sewing and Dressmaking 👗"
 +++
 
 The COVID-19 pandemic brought an unexpected amount of downtime, leading many of us to pick up new hobbies to keep ourselves engaged. One of my favourite new hobbies I picked up during the pandemic was dressmaking. Although it might seem worlds away from my professional life in tax technology, I discovered that the careful art of tailoring has some surprisingly relevant lessons for my work. Here are the top three.
