@@ -1,7 +1,8 @@
 +++ 
 date = 2023-07-17T14:48:00Z 
 slug = "response" 
-title = "Response to HMRC's Consultation on The Tax Administration Framework Review: Creating Innovative Change Through New Legislative Pilots" +++
+title = "Response to HMRC's Consultation on The Tax Administration Framework Review: Creating Innovative Change Through New Legislative Pilots" 
++++
 
 
 I responded to HMRC's Open Consulation on The Tax Administration Framework Review: Creating Innovative Change Through New Legislative Pilots" from HMRC published on 27 April 2023. With my background as a tax professional, having gained experience in both practice and corporate settings, I have been privileged to observe the transformation of the tax landscape firsthand. The sweeping changes brought on by digitalisation and innovation in the way businesses operate have affirmed that modernising our tax systems is not merely desirable—it is imperative. As tax systems become more complex, we must embrace innovative solutions and a modern, flexible approach to make tax administration more efficient and user-friendly.
