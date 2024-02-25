@@ -7,165 +7,126 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Mon, 17 Jul 2023 14:48:00 +0000</lastBuildDate><atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jul 2023 14:48:00 +0000</lastBuildDate>
+    <atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Response to HMRC&#39;s Consultation on The Tax Administration Framework Review: Creating Innovative Change Through New Legislative Pilots</title>
       <link>https://shan.tax/posts/response/</link>
       <pubDate>Mon, 17 Jul 2023 14:48:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/response/</guid>
       <description>I responded to HMRC&amp;rsquo;s Open Consulation on The Tax Administration Framework Review: Creating Innovative Change Through New Legislative Pilots&amp;quot; from HMRC published on 27 April 2023. With my background as a tax professional, having gained experience in both practice and corporate settings, I have been privileged to observe the transformation of the tax landscape firsthand. The sweeping changes brought on by digitalisation and innovation in the way businesses operate have affirmed that modernising our tax systems is not merely desirable—it is imperative.</description>
     </item>
-    
     <item>
       <title>Finding Your Career Niche - A Talk at PyCon Namibia 2023</title>
       <link>https://shan.tax/posts/namibia/</link>
       <pubDate>Thu, 23 Feb 2023 11:07:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/namibia/</guid>
       <description>On 23 Feb 2023 I gave a short talk at the PyCon Namibia hosted at Kleines Heim in Windhoek. It was my first time in Namibia and everything was unfamiliar but exciting. I&amp;rsquo;ve also volunteered some time at Humble Data&amp;rsquo;s workshop. Humble Data is a charity which organises free workshops for people who are outside of the mainstream in the data science and tech industry. Over the 4-day conference, I was hugely impressed by the professionalism and diligence from the attendees, some of whom are still at high school!</description>
     </item>
-    
     <item>
       <title>🪡Stitching Success - 3 Tax Tech Wisdoms from Sewing and Dressmaking 👗</title>
       <link>https://shan.tax/posts/stitch-success/</link>
       <pubDate>Wed, 21 Dec 2022 17:53:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/stitch-success/</guid>
       <description>The COVID-19 pandemic brought an unexpected amount of downtime, leading many of us to pick up new hobbies to keep ourselves engaged. One of my favourite new hobbies I picked up during the pandemic was dressmaking. Although it might seem worlds away from my professional life in tax technology, I discovered that the careful art of tailoring has some surprisingly relevant lessons for my work. Here are the top three.</description>
     </item>
-    
     <item>
       <title>A New Milestone in Tax Education: Introducing the CIOT Diploma in Tax Technology🎉</title>
       <link>https://shan.tax/posts/ditt/</link>
       <pubDate>Mon, 21 Nov 2022 14:48:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/ditt/</guid>
-      <description>I am thrilled to finally lift the curtain on a project that has been in the making for the past year and a half - the launch of the Chartered Institute of Taxation&amp;rsquo;s (CIOT) innovative new qualification, the Diploma in Tax Technology (DITT)! 🍾🎊 This has truly been a labour of love and a project I am immensely proud of.
-The journey towards the creation of the DITT started years ago, while working alongside generous colleagues who were always willing to share their wisdom and experiences.</description>
+      <description>I am thrilled to finally lift the curtain on a project that has been in the making for the past year and a half - the launch of the Chartered Institute of Taxation&amp;rsquo;s (CIOT) innovative new qualification, the Diploma in Tax Technology (DITT)! 🍾🎊 This has truly been a labour of love and a project I am immensely proud of.&#xA;The journey towards the creation of the DITT started years ago, while working alongside generous colleagues who were always willing to share their wisdom and experiences.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://shan.tax/about/</link>
       <pubDate>Mon, 02 Aug 2021 13:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/about/</guid>
       <description>Hiya, I&amp;rsquo;m Shan 👩🏻‍💻! Welcome to my personal website. By profession, I am a tax innovation lead, based in the bustling City of London, UK. The website was originally set up to host my writings on tax and tax technology to keep track of things I learned at work. It gradually grew into a place where I put all my writings on work, technology, and pretty much everything I find interesting enough to dig a bit deeper 🤓</description>
     </item>
-    
     <item>
       <title>Building a Withholding Tax Determination Engine</title>
       <link>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</link>
       <pubDate>Mon, 21 Jun 2021 23:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/buildingawithholdingtaxdeterminationengine/</guid>
-      <description>I. What is withholding tax? Withholding tax (&amp;ldquo;WHT&amp;rdquo;) refers to an amount of tax withheld at source at a certain rate determined by local tax law. The most common example is payroll taxes withheld and paid by employers on employee wages. Withholding taxes also apply where sellers and buyers are situated in different jurisdictions, with rates varying by country or due to specific double tax treaties between tax authorities.
-WHT can be applied to different types of remuneration, such as dividend, interest, royalty, commission, fees, and rentals, as well as transactions, i.</description>
+      <description>I. What is withholding tax? Withholding tax (&amp;ldquo;WHT&amp;rdquo;) refers to an amount of tax withheld at source at a certain rate determined by local tax law. The most common example is payroll taxes withheld and paid by employers on employee wages. Withholding taxes also apply where sellers and buyers are situated in different jurisdictions, with rates varying by country or due to specific double tax treaties between tax authorities.&#xA;WHT can be applied to different types of remuneration, such as dividend, interest, royalty, commission, fees, and rentals, as well as transactions, i.</description>
     </item>
-    
     <item>
       <title>Building an HS Code Classification Model</title>
       <link>https://shan.tax/posts/buildinganhscodeclassification/</link>
       <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/buildinganhscodeclassification/</guid>
-      <description>I. What are HS codes? International trade relies on Harmonized System (“HS”) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.
-HS codes are used by all countries globally to classify imported and exported goods down to 6-digits. The HS code is split into three two-digit groups:
-First two digits - categorize product (e.g. “61” for Apparel &amp;amp; Clothing) Second two digits - classify further (e.</description>
+      <description>I. What are HS codes? International trade relies on Harmonized System (“HS”) codes to classify goods transported across borders. Incorrect HS code classification may result in penalties and seizure of goods.&#xA;HS codes are used by all countries globally to classify imported and exported goods down to 6-digits. The HS code is split into three two-digit groups:&#xA;First two digits - categorize product (e.g. “61” for Apparel &amp;amp; Clothing) Second two digits - classify further (e.</description>
     </item>
-    
     <item>
       <title>Building a Personal Website for Free</title>
       <link>https://shan.tax/posts/building-a-personal-website-for-free/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/building-a-personal-website-for-free/</guid>
-      <description>📎Why? Over the years, I set up various blog sites for myself and others using existing services such as Squarespace and WordPress. This year, I want to do something different - making the build process itself a learning journey. It&amp;rsquo;s a good time to do it because of a vast amount of excellent free open-source software available and plenty of tutorials/videos around.
-📖How? I have some experience with writing in markdown, working with Python and Git.</description>
+      <description>📎Why? Over the years, I set up various blog sites for myself and others using existing services such as Squarespace and WordPress. This year, I want to do something different - making the build process itself a learning journey. It&amp;rsquo;s a good time to do it because of a vast amount of excellent free open-source software available and plenty of tutorials/videos around.&#xA;📖How? I have some experience with writing in markdown, working with Python and Git.</description>
     </item>
-    
     <item>
       <title>Technology for Transfer Pricing (🗞published)</title>
       <link>https://shan.tax/posts/technology-for-transfer-pricing/</link>
       <pubDate>Fri, 27 Nov 2020 11:25:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/technology-for-transfer-pricing/</guid>
-      <description>This article is published on Bloomberg Tax 17 Jun 2021.
-My tax technology journey starts with transfer pricing (&amp;ldquo;TP&amp;rdquo;) given much of the TP work involves tailored data analytics and visualisation. For technical correspondence with tax authorities, I also provided econometric based statistical analyses. For multinational companies, TP is a highly visible area of tax with governments agreeing to exchange data and hence many potential technology applications. It is therefore desirable to establish a modern data-driven TP management in-house with a systematic overarching design.</description>
+      <description>This article is published on Bloomberg Tax 17 Jun 2021.&#xA;My tax technology journey starts with transfer pricing (&amp;ldquo;TP&amp;rdquo;) given much of the TP work involves tailored data analytics and visualisation. For technical correspondence with tax authorities, I also provided econometric based statistical analyses. For multinational companies, TP is a highly visible area of tax with governments agreeing to exchange data and hence many potential technology applications. It is therefore desirable to establish a modern data-driven TP management in-house with a systematic overarching design.</description>
     </item>
-    
     <item>
       <title>Peeking into the Giants: Analysing the ADIMA Database (🗞published)</title>
       <link>https://shan.tax/posts/peeking-into-the-giants/</link>
       <pubDate>Sat, 17 Oct 2020 09:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/peeking-into-the-giants/</guid>
-      <description>This blog was first published on medium.com and Analytics Vidhya News Bytes
-This blog examines the Analytical Database of Individual Multinational Enterprises (MNEs) and their Affiliates (ADIMA) dataset from OECD to understand the structure and presence of the top 100 MNEs of our time across the world.
-Background Visibility of information on Multinational Enterprises (MNEs) has been limited at best despite their significant and growing importance in our daily lives as well as public policy area.</description>
+      <description>This blog was first published on medium.com and Analytics Vidhya News Bytes&#xA;This blog examines the Analytical Database of Individual Multinational Enterprises (MNEs) and their Affiliates (ADIMA) dataset from OECD to understand the structure and presence of the top 100 MNEs of our time across the world.&#xA;Background Visibility of information on Multinational Enterprises (MNEs) has been limited at best despite their significant and growing importance in our daily lives as well as public policy area.</description>
     </item>
-    
     <item>
       <title>Machine Learning Governance in Tax</title>
       <link>https://shan.tax/posts/machine-learning-governance-in-tax/</link>
       <pubDate>Tue, 10 Mar 2020 14:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/machine-learning-governance-in-tax/</guid>
-      <description>Many areas of tax incorporated machine learning, but it is not a silver bullet. What are the potential risks of adopting a machine learning approach to replace manual efforts, and how could we mitigate such risks? This blog post discusses some governance measures I put in place to address these questions.
-Common applications The most frequent machine learning application I came across in tax falls into the category of classification prediction modelling.</description>
+      <description>Many areas of tax incorporated machine learning, but it is not a silver bullet. What are the potential risks of adopting a machine learning approach to replace manual efforts, and how could we mitigate such risks? This blog post discusses some governance measures I put in place to address these questions.&#xA;Common applications The most frequent machine learning application I came across in tax falls into the category of classification prediction modelling.</description>
     </item>
-    
     <item>
       <title>Thoughts on What it Means to be a Lead in Tax Innovation</title>
       <link>https://shan.tax/posts/whatitmeanstobealeadintaxinnovation/</link>
       <pubDate>Sun, 04 Aug 2019 23:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/whatitmeanstobealeadintaxinnovation/</guid>
-      <description>Before joining Unilever as the Lead for Tax Innovation, I thought a lot about what skills a future tax professional should have. It was based on my personal development journey. Looking back, it was mostly focused on the technical development needed to extend accountancy and tax advisory capabilities to data analytics and machine learning.
-When I first became a manager, I always made it clear to junior team members that I trusted them to prioritise their time as long as they meet the agreed deadlines and required quality.</description>
+      <description>Before joining Unilever as the Lead for Tax Innovation, I thought a lot about what skills a future tax professional should have. It was based on my personal development journey. Looking back, it was mostly focused on the technical development needed to extend accountancy and tax advisory capabilities to data analytics and machine learning.&#xA;When I first became a manager, I always made it clear to junior team members that I trusted them to prioritise their time as long as they meet the agreed deadlines and required quality.</description>
     </item>
-    
     <item>
       <title>Data, User Participation and Value Creation: Drilling Down on Taxing Digitalization (🗞published)</title>
       <link>https://shan.tax/posts/data-user-participation-value-creation/</link>
       <pubDate>Mon, 10 Dec 2018 09:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/data-user-participation-value-creation/</guid>
       <description>Amidst the discussion on Pillar 1 of the OCED BEPS initiative on Digital Tax, I attended the public consultation in Paris in April 2018. To detail what my thinkings were, I published an article on Bloomberg Tax Management International Journal.</description>
     </item>
-    
     <item>
       <title>Data Visualisation in Tax</title>
       <link>https://shan.tax/posts/data-visualisation-in-tax/</link>
       <pubDate>Tue, 09 Oct 2018 10:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/data-visualisation-in-tax/</guid>
-      <description>Tax and finance teams use an excessive amount of dashboards. The contents are often limited to simple bar charts and histograms. However, tax data is multi-dimensional which means the simple two-dimensional representations may no longer be sufficient.
-I believe modern data visualisation in tax should increasingly serve the users with more depth in that it could allow users to:
-interact with data, explore and tell a story from the data, and/or; directly enable an action point from the visualisation I explain this thinking with an example in transfer pricing below.</description>
+      <description>Tax and finance teams use an excessive amount of dashboards. The contents are often limited to simple bar charts and histograms. However, tax data is multi-dimensional which means the simple two-dimensional representations may no longer be sufficient.&#xA;I believe modern data visualisation in tax should increasingly serve the users with more depth in that it could allow users to:&#xA;interact with data, explore and tell a story from the data, and/or; directly enable an action point from the visualisation I explain this thinking with an example in transfer pricing below.</description>
     </item>
-    
     <item>
       <title>Skills for Future Tax Professionals</title>
       <link>https://shan.tax/posts/skills-for-future-tax-professionals/</link>
       <pubDate>Mon, 02 Jul 2018 09:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/skills-for-future-tax-professionals/</guid>
-      <description>*Some updates on this subject are here.
-I often hear tax professionals around me wondering what skills our profession should have under the rapid progression of data and technology. The confusion, or more accurately the dilemma seems to be antagonistic option of resourcing established data scientists who adapt to the tax problem domain, or to expect tax professionals to learn data analytics, or even deeper.
-I suspect similar questions are on many non-tech industry professionals’ mind.</description>
+      <description>*Some updates on this subject are here.&#xA;I often hear tax professionals around me wondering what skills our profession should have under the rapid progression of data and technology. The confusion, or more accurately the dilemma seems to be antagonistic option of resourcing established data scientists who adapt to the tax problem domain, or to expect tax professionals to learn data analytics, or even deeper.&#xA;I suspect similar questions are on many non-tech industry professionals’ mind.</description>
     </item>
-    
     <item>
       <title>CBCR Analysis</title>
       <link>https://shan.tax/posts/cbcr-analysis/</link>
       <pubDate>Tue, 12 Dec 2017 23:00:00 +0000</pubDate>
-      
       <guid>https://shan.tax/posts/cbcr-analysis/</guid>
-      <description>Background OECD’s BEPS project Action 13 provides a template for multinational enterprises (“MNEs”) to report annually and for each tax jurisdiction in which they do business the information set out therein. This report is called the Country-by-Country Report (“CBCR”). The CBCR template requires two tables of MNEs&amp;rsquo; financial and operational information.
-Exploratory data analysis In the first year of submitting CBCR, I wanted to use Python instead of Excel to see how one may get more insights from the data collected in CBCR.</description>
+      <description>Background OECD’s BEPS project Action 13 provides a template for multinational enterprises (“MNEs”) to report annually and for each tax jurisdiction in which they do business the information set out therein. This report is called the Country-by-Country Report (“CBCR”). The CBCR template requires two tables of MNEs&amp;rsquo; financial and operational information.&#xA;Exploratory data analysis In the first year of submitting CBCR, I wanted to use Python instead of Excel to see how one may get more insights from the data collected in CBCR.</description>
     </item>
-    
+    <item>
+      <title></title>
+      <link>https://shan.tax/posts/digital-transformation-how-it-can-shape-the-tax-profession/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shan.tax/posts/digital-transformation-how-it-can-shape-the-tax-profession/</guid>
+      <description>I recently had the honour of contributing an article titled &amp;ldquo;Digital Transformation: How IT Can Shape the Tax Professional&amp;rdquo; to the Tax Advisor magazine, published on 20 September 2023. This piece was aimed at demystifying the complex jargon surrounding AI, machine learning, and automation to general tax professinals. In this publication, I delve into how the emerging technologies can revolutionize the tax profession, enhancing accuracy, efficiency, and accessibility.&#xA;The piece examines a range of technological innovations, from robotic process automation to advanced data analytics and the emergence of Generative AI and Large Language Models.</description>
+    </item>
   </channel>
 </rss>

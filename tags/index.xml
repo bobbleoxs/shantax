@@ -6,6 +6,7 @@
     <description>Recent content in Tags on Shan Sun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <copyright>Shan Sun</copyright><atom:link href="https://shan.tax/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Shan Sun</copyright>
+    <atom:link href="https://shan.tax/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
