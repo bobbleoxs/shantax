@@ -121,12 +121,5 @@
       <guid>https://shan.tax/posts/cbcr-analysis/</guid>
       <description>Background OECD’s BEPS project Action 13 provides a template for multinational enterprises (“MNEs”) to report annually and for each tax jurisdiction in which they do business the information set out therein. This report is called the Country-by-Country Report (“CBCR”). The CBCR template requires two tables of MNEs&amp;rsquo; financial and operational information.&#xA;Exploratory data analysis In the first year of submitting CBCR, I wanted to use Python instead of Excel to see how one may get more insights from the data collected in CBCR.</description>
     </item>
-    <item>
-      <title></title>
-      <link>https://shan.tax/posts/digital-transformation-how-it-can-shape-the-tax-profession/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shan.tax/posts/digital-transformation-how-it-can-shape-the-tax-profession/</guid>
-      <description>I recently had the honour of contributing an article titled &amp;ldquo;Digital Transformation: How IT Can Shape the Tax Professional&amp;rdquo; to the Tax Advisor magazine, published on 20 September 2023. This piece was aimed at demystifying the complex jargon surrounding AI, machine learning, and automation to general tax professinals. In this publication, I delve into how the emerging technologies can revolutionize the tax profession, enhancing accuracy, efficiency, and accessibility.&#xA;The piece examines a range of technological innovations, from robotic process automation to advanced data analytics and the emergence of Generative AI and Large Language Models.</description>
-    </item>
   </channel>
 </rss>
