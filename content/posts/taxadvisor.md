@@ -1,4 +1,8 @@
-+++ date = 2023-11-21T15:48:00Z slug = "taxadvisor" title = "Digital transformation: how IT can shape the tax profession (🗞️published)" +++
++++
+date = 2023-11-21T15:48:00Z 
+slug = "taxadvisor" 
+title = "Digital transformation: how IT can shape the tax profession (🗞️published)"
++++
 
 
 I recently had the honour of contributing an article titled "[Digital Transformation: How IT Can Shape the Tax Professional](https://www.taxadvisermagazine.com/article/digital-transformation-how-it-can-shape-tax-profession)" to the Tax Advisor magazine, published on 20 September 2023. This piece was aimed at demystifying the complex jargon surrounding AI, machine learning, and automation to general tax professinals. In this publication, I delve into how the emerging technologies can revolutionize the tax profession, enhancing accuracy, efficiency, and accessibility. 
