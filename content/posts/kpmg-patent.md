@@ -20,7 +20,7 @@ The fuel of the benchmarking analysis in TP documentation is comparable data. Tr
 
 As a result, taxpayers may struggle to justify their chosen comparables before the tax authorities, increasing the risk of disputes and potentially unfavourable outcomes. Tax professionals can address these challenges using a combination of machine learning techniques. 
 
-![alt](https://github.com/bobbleoxs/shantax/blob/master/static/uploads/patent.png)
+![](/uploads/patent.png)
 
 ## Comprehensive data collection and streamlining
 
