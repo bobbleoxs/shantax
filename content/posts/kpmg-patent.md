@@ -1,4 +1,8 @@
-+++ date = 2024-04-07T14:48:00Z slug = "patent" title = "Navigating the AI Frontier in Transfer Pricing: a Brief Case Study" +++
++++
+date = 2024-04-07T14:48:00Z
+slug = "patent"
+title = "Navigating the AI Frontier in Transfer Pricing: a Brief Case Study"
++++
 
 The use of artificial intelligence (AI) permeates many facets of our lives and work. I explore the real-world application of AI in the specialist field of transfer pricing (TP) comparable identification process using KPMG's recent patent (US 11720842 B2 "System and method for identifying comparables").[^1]
 
@@ -31,7 +35,7 @@ Standard machine learning methodologies are employed to determine the acceptance
 **Continuous improvements**
 
 
-       > _**"It is remarkably easy to incur massive ongoing maintenance costs at the system level when applying machine learning." - D.Sculley et al, Google Inc**_[^2]
+> _**"It is remarkably easy to incur massive ongoing maintenance costs at the system level when applying machine learning." - D.Sculley et al, Google Inc**_[^2]
 
 The implementation of a machine learning system requires continuous learning and improvement to ensure its relevance and accuracy. The KPMG patent details methodologies like the use of synthetic data generation and mandatory human intervention to refine and enhance the AI model's learning curve. Synthetic data helps address the gaps in real data and enhances the model's exposure to different scenarios, which in turn improves the system's predictive accuracy and robustness. On the other hand, human intervention framework ensures that the models' learning aligns with human expertise and safeguards the models' reliability.
 
