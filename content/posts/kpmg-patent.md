@@ -20,6 +20,8 @@ The fuel of the benchmarking analysis in TP documentation is comparable data. Tr
 
 As a result, taxpayers may struggle to justify their chosen comparables before the tax authorities, increasing the risk of disputes and potentially unfavourable outcomes. Tax professionals can address these challenges using a combination of machine learning techniques. 
 
+![alt](https://github.com/bobbleoxs/shantax/blob/master/static/uploads/patent.png)
+
 ## Comprehensive data collection and streamlining
 
 Traditionally, TP analysts rely on proprietary databases to select a wide range of potential comparables based on the characteristics of the test party in question before narrowing down the selection to identify the final truly comparable set of data. The AI-enhanced comparable identification system enables a much wider data collection process from publicly available information, subscription-based databases, and potentially proprietary data sources. Given the diverse nature of the data sources, the information is standardised using advanced normalisation techniques to a common format to ensure data consistency and comparability. This process includes simple tasks from converting currencies to standardising financial statement formats, and integrating quantitative financial metrics with operational and industry specific descriptors. This is a significant step which increases the depth and dimension of the data available to analyse comparability.
