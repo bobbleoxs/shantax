@@ -4,7 +4,7 @@ Website is live at [https://shan.tax/](https://shan.tax/).
 
 ## Stack
 
-~~ - [Forestry](https://forestry.io/): Content editing platform. (Forestry was discountinued in April 2023, I am now using Github actions to build the web page.) ~~
+- ~~[Forestry](https://forestry.io/): Content editing platform. (Forestry was discountinued in April 2023, I am now using Github actions to build the web page.)~~
 - [Hugo](https://gohugo.io/): Static site generator.
   - [Hosting Hugo on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 - [Cactus](https://themes.gohugo.io/hugo-theme-cactus/): Hugo theme.
