@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Tue, 21 Nov 2023 15:48:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2024 14:48:00 +0000</lastBuildDate>
     <atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Navigating the AI Frontier in Transfer Pricing: a Brief Case Study</title>
+      <link>https://shan.tax/posts/patent/</link>
+      <pubDate>Sun, 07 Apr 2024 14:48:00 +0000</pubDate>
+      <guid>https://shan.tax/posts/patent/</guid>
+      <description>The use of artificial intelligence (AI) permeates many facets of our lives and work. I explore the real-world application of AI in the specialist field of transfer pricing (TP) comparable identification process using KPMG&amp;rsquo;s recent patent (US 11720842 B2 &amp;ldquo;System and method for identifying comparables&amp;rdquo;).1&#xA;Problem statement&#xA;The fuel of the benchmarking analysis in TP documentation is comparable data. Transfer pricing professionals face challenges when it comes to accurately identifying comparable companies for benchmarking purposes, each critical to the process&amp;rsquo;s integrity and outcomes:</description>
+    </item>
     <item>
       <title>Digital transformation: how IT can shape the tax profession (🗞️published)</title>
       <link>https://shan.tax/posts/taxadvisor/</link>
