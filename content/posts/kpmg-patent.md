@@ -6,25 +6,25 @@ title = "Navigating the AI Frontier in Transfer Pricing: a Brief Case Study"
 
 The use of artificial intelligence (AI) permeates many facets of our lives and work. I explore the real-world application of AI in the specialist field of transfer pricing (TP) comparable identification process using KPMG's recent patent (US 11720842 B2 "System and method for identifying comparables").[^1]
 
-**Problem statement**
+## Problem statement
 
 The fuel of the benchmarking analysis in TP documentation is comparable data. Transfer pricing professionals face challenges when it comes to accurately identifying comparable companies for benchmarking purposes, each critical to the process's integrity and outcomes:
 
 
 
-* Data Availability: lack of relevant datasets presents challenge for further refinement in the comparable identification process;
-* Data Quality: poor data quality can introduce errors and inconsistencies, undermining the credibility and accuracy of the comparability assessment;
-* Process Consistency: inconsistent analysis approach may result in unreliable comparisons and difficulties in justifying the selection of comparables;
-* Human Error and Bias: similar to inconsistent process, manual comparable searches are time-consuming, labour-tensive, and prone to human error and bias which could compromise the fairness of comparable selected;
-* Robust Governance: insufficient or lack of a governance framework may fail to enforce transparency and accountability of a comparable study, raising challenges under regulatory review.
+* ***Data Availability***: lack of relevant datasets presents challenge for further refinement in the comparable identification process;
+* ***Data Quality***: poor data quality can introduce errors and inconsistencies, undermining the credibility and accuracy of the comparability assessment;
+* ***Process Consistency***: inconsistent analysis approach may result in unreliable comparisons and difficulties in justifying the selection of comparables;
+* ***Human Error and Bias***: similar to inconsistent process, manual comparable searches are time-consuming, labour-tensive, and prone to human error and bias which could compromise the fairness of comparable selected;
+* ***Robust Governance***: insufficient or lack of a governance framework may fail to enforce transparency and accountability of a comparable study, raising challenges under regulatory review.
 
 As a result, taxpayers may struggle to justify their chosen comparables before the tax authorities, increasing the risk of disputes and potentially unfavourable outcomes. Tax professionals can address these challenges using a combination of machine learning techniques. 
 
-**Comprehensive data collection and streamlining**
+## Comprehensive data collection and streamlining
 
 Traditionally, TP analysts rely on proprietary databases to select a wide range of potential comparables based on the characteristics of the test party in question before narrowing down the selection to identify the final truly comparable set of data. The AI-enhanced comparable identification system enables a much wider data collection process from publicly available information, subscription-based databases, and potentially proprietary data sources. Given the diverse nature of the data sources, the information is standardised using advanced normalisation techniques to a common format to ensure data consistency and comparability. This process includes simple tasks from converting currencies to standardising financial statement formats, and integrating quantitative financial metrics with operational and industry specific descriptors. This is a significant step which increases the depth and dimension of the data available to analyse comparability.
 
-**Comparable identification process using machine learning techniques**
+## Comparable identification process using machine learning techniques
 
 The main objective of a benchmarking analysis in TP is to identify comparable companies that share similar traits with the test party, ultimately determining an acceptable arm's length pricing range. Traditionally, this process often involves human judgement, which can result in errors, inconsistencies and biases due to its labour-intensive nature and reliance on manual review of potential comparables.
 
@@ -32,7 +32,7 @@ Machine learning techniques can help alleviate some of the challenges faced in t
 
 Standard machine learning methodologies are employed to determine the acceptance or rejection of comparables. This is based on their alignment with the test party. The process includes supervised learning, where training data are labelled as comparable or non-comparable. It also encompasses model training and selection, cross-validation, hyperparameter optimization (like learning rate and regularisation), model assessment, and ongoing enhancements.
 
-**Continuous improvements**
+## Continuous improvements
 
 
 > _**"It is remarkably easy to incur massive ongoing maintenance costs at the system level when applying machine learning." - D.Sculley et al, Google Inc**_[^2]
