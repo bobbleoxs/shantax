@@ -58,7 +58,7 @@ Integrating AI into the nuanced field of comparable identification in TP can yie
      Many reliable open-source packages are available when it comes to data normalisation, including Python based [Pandas](https://pandas.pydata.org/), [scikit-learn](https://scikit-learn.org/), R based [dplyr](https://dplyr.tidyverse.org/) and [tidyr](https://tidyr.tidyverse.org/).
 
 [^3]:
-     Python based [scikit-learn](https://scikit-learn.org/) and [spaCy](https://spacy.io/)are two reliable and comprehensive open-source packages that offer robust feature extraction solutions including Principal Component Analysis and entity relationship extracton respectively.
+     Python based [scikit-learn](https://scikit-learn.org/) and [spaCy](https://spacy.io/) are two reliable and comprehensive open-source packages that offer robust feature extraction solutions including Principal Component Analysis and entity relationship extracton respectively.
 
 [^4]:
      D. Sculley, G. Holt, D. Golovin, E. Davydov, T. Phillips, D. Ebner, V. Chaudhary, M. Young, J.-F. Crespo, and D. Dennison, “[Hidden technical debt in Machine Learning systems](https://papers.neurips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf),” in Neural Information Processing Systems, vol. 2, MIT Press, 2015
