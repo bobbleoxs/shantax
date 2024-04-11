@@ -3,6 +3,8 @@ date = 2024-04-07T14:48:00Z
 slug = "patent"
 title = "Navigating the AI Frontier in Transfer Pricing: a Brief Case Study"
 +++
+_****Disclaimer****: The views and opinions expressed on this blog are strictly my own and do not reflect those of any past or current employer. The content provided here is for informational purposes only and is not intended to represent the strategies, intentions, or opinions of any organization that I am or have been associated with._
+
 
 The use of artificial intelligence (AI) permeates many facets of our lives and work. Here I explore the real-world application of AI in the specialist field of transfer pricing (TP) comparable identification process using KPMG's recent patent (US 11720842 B2 "System and Method for Identifying omparables").[^1]
 
