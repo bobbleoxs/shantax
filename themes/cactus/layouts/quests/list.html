@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <main>
+    <article>
+      {{ .Content }}
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+      <!-- "{{ .Content }}" pulls from the Markdown content of the corresponding _index.md -->
+    </article>
+    <ul class="post-list">
+      {{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+      {{ range .Pages }}
+        <li class="post-item">
+          <div class="meta"><time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time></div>
+          <span><a href="{{ .Permalink }}">{{ if .Title }} {{- .Title -}} {{ else }} {{- print "Untitled" -}}{{ end }}</a></span>
+        </li>
+      {{ end }}
+    </ul>
+    <ul>
+  </main>
+{{ end }}
