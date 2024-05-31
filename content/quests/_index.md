@@ -5,4 +5,4 @@ title = "Quests"
 weight = 2
 
 +++
-Here is a list of all the quests I've been on!
+Not really tax related but projects I did, because I want to see if I could.
