@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Sun, 07 Apr 2024 14:48:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2024 23:48:00 +0000</lastBuildDate>
     <atom:link href="https://shan.tax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making Sea Angels: A Journey of Light, Art, and Technology</title>
+      <link>https://shan.tax/quests/sea_angels/</link>
+      <pubDate>Fri, 31 May 2024 23:48:00 +0000</pubDate>
+      <guid>https://shan.tax/quests/sea_angels/</guid>
+      <description>The Sea Angels project is a labor of love. Lighthouses have always fascinated me. They provide direction, security, and solitude. I make it a point to visit a lighthouse wherever I travel. For EMF 2024, I decided to create a project that pays tribute to these beacons while also honouring the memory of my cat Bobble, who sadly passed away during the pandemic. I didn&amp;rsquo;t get the chance to say goodbye to Bobble, but he remains a bright light in my heart.</description>
+    </item>
     <item>
       <title>Navigating the AI Frontier in Transfer Pricing: a Brief Case Study</title>
       <link>https://shan.tax/posts/patent/</link>
@@ -28,7 +35,7 @@
       <link>https://shan.tax/posts/response/</link>
       <pubDate>Mon, 17 Jul 2023 14:48:00 +0000</pubDate>
       <guid>https://shan.tax/posts/response/</guid>
-      <description>I responded to HMRC&amp;rsquo;s Open Consulation on The Tax Administration Framework Review: Creating Innovative Change Through New Legislative Pilots&amp;quot; from HMRC published on 27 April 2023. With my background as a tax professional, having gained experience in both practice and corporate settings, I have been privileged to observe the transformation of the tax landscape firsthand. The sweeping changes brought on by digitalisation and innovation in the way businesses operate have affirmed that modernising our tax systems is not merely desirable—it is imperative.</description>
+      <description>I responded to HMRC&amp;rsquo;s open consultation on The Tax Administration Framework Review: Creating Innovative Change Through New Legislative Pilots&amp;quot; from HMRC published on 27 April 2023. With my background as a tax professional, having gained experience in both practice and corporate settings, I have been privileged to observe the transformation of the tax landscape firsthand. The sweeping changes brought on by digitalisation and innovation in the way businesses operate have affirmed that modernising our tax systems is not merely desirable—it is imperative.</description>
     </item>
     <item>
       <title>Finding Your Career Niche - A Talk at PyCon Namibia 2023</title>
