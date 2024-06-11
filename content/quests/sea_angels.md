@@ -21,13 +21,13 @@ One of the biggest challenges in this project was powering and controlling the 1
 
 To manage the power and control aspects, I divided the back board into two 100cm*170cm pieces, and the LED strips into three sections, each accommodating around 50  to 75 LED lights. This segmentation allowed for more efficient power management, fewer failure points, and simpler wiring process. I've also added a 1000mf, 6.3v capacitor to each LED strip to prevent initial power surges from damaging LEDs when they are turned on. The set up is to ensure the final piece is as robust as possible.
 
-[Insert a photo of the electronics setup or the wiring process]
+![](/uploads/resin_back.JPEG)
 
 #### Printing the 3D Map
 
 Creating the 3D topographically accurate map of the world was a time-consuming process. I have a Bambu X1C  printer which turned out to be very well suited to this task. For the 3D models, I am grateful to KamSav's generous sharing of the elevated 3D world map models on MakerWorld. I've also spent countless hours to ensure that each country fit together seamlessly with a modified projection method. Some countries, like Canada and China, which have more complex border shapes, required multiple attempts to get the perfect fit. One thing I didn't quite appreciate is that even with the same manufacturer the same "white" PLA filament could have a slightly different shade of white in real life. 
 
-[Insert a photo of the 3D printing process or a close-up of the printed map]
+![](/uploads/map_partial.JPEG)
 
 #### Assembly and Finishing Touches
 
@@ -35,11 +35,11 @@ With the 3D printed map and electronics in place, I began the meticulous process
 
 After a few tries of various attaching method, I settled on using the UV resin which achieves both sturdiness and speed to attach end emitting fibre optic cables to individual LED light. Once the connections were secure, I carefully poked each fiber optic through the drilled holes, locking them in place to create the illusion of glowing coastlines. 2mm fibre optics are quite rigid, hot air gun was used to soften them to achieved the desired bend.
 
-[Insert a photo of the fiber optic attachment process or the back of the map with the LED strips]
+![](/uploads/electronics.JPEG)
 
 #### The Final Result
 After two months of hard work, Sea Angels finally came to life. Creating Sea Angels was a journey through data analysis, electronic engineering, precision crafting, and artistic expression. The result is a soothing art installation that showcases the beauty and importance of lighthouses worldwide. As viewers approach the piece, they are greeted by the gentle glow of the LEDs, each flashing in its own unique pattern, creating a mesmerising dance of light that tells the story of these guiding beacons.
 
-[Insert a photo of the completed installation with viewers interacting with it]
+![](/uploads/IMG_2478.mov)
 
 The making of Sea Angels has been an incredible journey of learning, experimentation, and perseverance. I hope that this project inspires other makers and artists to undertake your projects, no matter how complex they may seem at the start. Each piece of art starts with a single step—or in this case, a single light.
