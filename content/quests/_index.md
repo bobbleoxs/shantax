@@ -5,4 +5,4 @@ title = "Quests"
 weight = 2
 
 +++
-Not really tax related but projects I did, because I want to see if I could.
+Some curious attempts outside the tax world.
