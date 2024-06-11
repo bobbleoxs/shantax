@@ -40,6 +40,6 @@ After a few tries of various attaching method, I settled on using the UV resin w
 #### The Final Result
 After two months of hard work, Sea Angels finally came to life. Creating Sea Angels was a journey through data analysis, electronic engineering, precision crafting, and artistic expression. The result is a soothing art installation that showcases the beauty and importance of lighthouses worldwide. As viewers approach the piece, they are greeted by the gentle glow of the LEDs, each flashing in its own unique pattern, creating a mesmerising dance of light that tells the story of these guiding beacons.
 
-![](/uploads/lighthouses_24fps.gif)
+![](/uploads/lighthouses_5fps.gif)
 
 The making of Sea Angels has been an incredible journey of learning, experimentation, and perseverance. I hope that this project inspires other makers and artists to undertake your projects, no matter how complex they may seem at the start. Each piece of art starts with a single step—or in this case, a single light.
