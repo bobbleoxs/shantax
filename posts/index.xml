@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-gb</language>
     <copyright>Shan Sun</copyright>
-    <lastBuildDate>Sun, 07 Apr 2024 14:48:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 14:48:00 +0000</lastBuildDate>
     <atom:link href="https://shan.tax/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>👩🏻‍💻 The Hidden Complexity of Tax Data Analytics: 10 Lessons from the Trenches 👩🏻‍🏭</title>
+      <link>https://shan.tax/posts/trenches/</link>
+      <pubDate>Sun, 11 Aug 2024 14:48:00 +0000</pubDate>
+      <guid>https://shan.tax/posts/trenches/</guid>
+      <description>The analysis of tax data often yields contradictory paradoxes, requiring both numerical precision as well as analytical interpretation of tax regulations. With Pillar 2 looming, understanding best practices for tax data collection, analysis, calculation, and reporting is paramount.&#xA;Whether you&amp;rsquo;re an Excel expert, an Alteryx aficionado, proficient with Python, or skilled using SQL, the following is some hard won practical tips for working with real-world tax data, from data cleaning to building machine learning tax models.</description>
+    </item>
     <item>
       <title>Navigating the AI Frontier in Transfer Pricing: a Brief Case Study</title>
       <link>https://shan.tax/posts/patent/</link>

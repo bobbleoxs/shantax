@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> 👩🏻‍💻 The Hidden Complexity of Tax Data Analytics: 10 Lessons from the Trenches 👩🏻‍🏭 | Shan Sun</title>
+  <meta name="description" content="Reflections on tax, tax technology and more.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:url" content="https://shan.tax/posts/trenches/">
+  <meta property="og:site_name" content="Shan Sun">
+  <meta property="og:title" content="👩🏻‍💻 The Hidden Complexity of Tax Data Analytics: 10 Lessons from the Trenches 👩🏻‍🏭">
+  <meta property="og:description" content="The analysis of tax data often yields contradictory paradoxes, requiring both numerical precision as well as analytical interpretation of tax regulations. With Pillar 2 looming, understanding best practices for tax data collection, analysis, calculation, and reporting is paramount.
+Whether you’re an Excel expert, an Alteryx aficionado, proficient with Python, or skilled using SQL, the following is some hard won practical tips for working with real-world tax data, from data cleaning to building machine learning tax models.">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-08-11T14:48:00+00:00">
+    <meta property="article:modified_time" content="2024-08-11T14:48:00+00:00">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="👩🏻‍💻 The Hidden Complexity of Tax Data Analytics: 10 Lessons from the Trenches 👩🏻‍🏭">
+  <meta name="twitter:description" content="The analysis of tax data often yields contradictory paradoxes, requiring both numerical precision as well as analytical interpretation of tax regulations. With Pillar 2 looming, understanding best practices for tax data collection, analysis, calculation, and reporting is paramount.
+Whether you’re an Excel expert, an Alteryx aficionado, proficient with Python, or skilled using SQL, the following is some hard won practical tips for working with real-world tax data, from data cleaning to building machine learning tax models.">
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://shan.tax/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="https://shan.tax/images/favicon.ico" />
+
+  
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/about/">About</a></li>
+         
+        <li><a href="/quests/">Quests</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://shan.tax/quests/sea_angels/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&text=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&is_video=false&description=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad&body=Check out this article: https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-digg " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&name=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad&description=The%20analysis%20of%20tax%20data%20often%20yields%20contradictory%20paradoxes%2c%20requiring%20both%20numerical%20precision%20as%20well%20as%20analytical%20interpretation%20of%20tax%20regulations.%20With%20Pillar%202%20looming%2c%20understanding%20best%20practices%20for%20tax%20data%20collection%2c%20analysis%2c%20calculation%2c%20and%20reporting%20is%20paramount.%0aWhether%20you%26rsquo%3bre%20an%20Excel%20expert%2c%20an%20Alteryx%20aficionado%2c%20proficient%20with%20Python%2c%20or%20skilled%20using%20SQL%2c%20the%20following%20is%20some%20hard%20won%20practical%20tips%20for%20working%20with%20real-world%20tax%20data%2c%20from%20data%20cleaning%20to%20building%20machine%20learning%20tax%20models.">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&t=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        👩🏻‍💻 The Hidden Complexity of Tax Data Analytics: 10 Lessons from the Trenches 👩🏻‍🏭
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2024-08-11 14:48:00 &#43;0000 UTC" itemprop="datePublished">2024-08</time>
+          
+        </div>
+        
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p><img src="/uploads/trenches.png" alt=""></p>
+<p>The analysis of tax data often yields contradictory paradoxes, requiring both numerical precision as well as analytical interpretation of tax regulations. With Pillar 2 looming, understanding best practices for tax data collection, analysis, calculation, and reporting is paramount.</p>
+<p>Whether you&rsquo;re an Excel expert, an Alteryx aficionado, proficient with Python, or skilled using SQL, the following is some hard won practical tips for working with real-world tax data, from data cleaning to building machine learning tax models.</p>
+<ol>
+<li><strong>The Deceptive Nature of &ldquo;Clean&rdquo; Data</strong></li>
+</ol>
+<p>In tax, data cleaning is often seen as a perfunctory first step - a bureaucratic hurdle before the real work begins. ERP systems generate highly structured financial data exports, creating a false sense of security. The cliche &ldquo;garbage in and garbage out&rdquo; is well known, but it&rsquo;s hard to know when the inputs are garbage. The resulting impact of unclean data on final analytical outputs can be disastrous.</p>
+<p>I treat the initial step of data exploration like a detective approaching a crime scene. Every dataset, no matter how innocuous it appears, is guilty until proven innocent. Duplicates, missing values, truncated data - these are the usual suspects. The real culprits can be quite insidious: inconsistent encoding, mixed data types, identical but different order of filters for extraction, or omitted time series that lurk in the shadows, waiting to derail your analysis when you least expect it.</p>
+<p>My choice of weapon are automated data profiling tools such as <a href="https://docs.profiling.ydata.ai/latest/">YData Profiling</a> and <a href="https://github.com/man-group/dtale">D-Tale</a>. It&rsquo;s like having a forensic team at your disposal, quickly scanning the scene and highlighting potential areas of interest. But tools are just that – tools. Analytical mastery requires developing an intuition for data, a sixth sense that tingles when something doesn&rsquo;t quite add up.</p>
+<ol start="2">
+<li><strong>The Counterintuitive Power of Slowing Down</strong></li>
+</ol>
+<p>While tax is not always a fast-paced discipline, tax technology teams are often under pressure to respond rapidly to analytical queries. These are often written in the arcane language of tax regulations rather than clear technical specifications. The temptation to dive straight into writing code can be irresistible. Some paradoxical advice: slowing down at the start dramatically speeds up the overall process.</p>
+<blockquote>
+<p>&ldquo;Give me six hours to chop down a tree and I will spend the first four sharpening the axe.&rdquo; - Abraham Lincoln</p>
+</blockquote>
+<p>Instead of immediately starting to code the requirements, I&rsquo;ve learned to first sketch out a decision tree, flowchart or mind map of the logic I&rsquo;m about create based on my understanding of the query. It&rsquo;s like plotting your route before embarking on a journey. An added advantage of this approach is to align non-technical tax colleagues&rsquo; understanding and expose edge cases and flaws in your logic while they are cheap to fix. It takes time to plan your journey upfront, but it can save you from countless dead ends and U-turns later on.</p>
+<p>In tax analytics, clarity of thought precedes clarity of code. A well-structured logic map is worth a thousand lines of hastily written code.</p>
+<blockquote>
+<p>&ldquo;First, solve the problem. Then, write the code.&rdquo; – John Johnson</p>
+</blockquote>
+<ol start="3">
+<li><strong>Coding for Humans not Machines</strong></li>
+</ol>
+<p>Code isn&rsquo;t just instructions for a machine - it&rsquo;s a precise form of communication with your future self and colleagues across tax and engineering. Data analytics code should be documented like any other tax report, including a top-line summary and descriptive code comments. This enhances reproducibility and assists explainability. Your future self will be thankful when a tax audit case is opened a year later and you&rsquo;re required to explain the calculation logic.</p>
+<p>I advocate using auto-formatting tools (e.g. <a href="https://pypi.org/project/jupyter-black/">Jupyter black</a>) and linters (e.g. <a href="https://docs.astral.sh/ruff/">ruff</a>) to automatically enforce code quality standards. It&rsquo;s not just about aesthetics - it&rsquo;s about creating code that tells a story. When a new team member can read your analysis and understand not just what it does, but why it does it, you&rsquo;ve succeeded.</p>
+<p>In tax, our data analyses may need to stand up to future scrutiny from auditors, regulators, or even court officials. Write your code with the clarity and precision you&rsquo;d use in a legal document.</p>
+<ol start="4">
+<li><strong>The Lifesaving Magic of Unit Tests</strong></li>
+</ol>
+<p>I used to think unit tests were a luxury, something only &ldquo;real&rdquo; software engineers need to worry about when putting their work into production. I&rsquo;ve since learned that adding one-line (&ldquo;unit&rdquo;) tests throughout every data analysis can be lifesaving, flagging hard-to-spot data quality issues that would otherwise have been easily missed.</p>
+<p>Consider writing tests to check for common data issues to detect the presence of empty fields, duplicate values in unique identifiers, whether rounding has been done consistently, or to test assumptions around handling edge cases. Tools such as <a href="https://pandera.readthedocs.io/">Pandera</a> or Pyd<a href="https://docs.pydantic.dev/latest/">Pydantic</a>antic can help streamline this process of &ldquo;defensive data testing&rdquo;.</p>
+<p>This practice is even more useful when it comes to tracking down errors, such as a calculation discrepancy, which are otherwise much like searching for a needle in a haystack. Furthermore, writing tests will force you to think deeply about your code&rsquo;s behaviour, often revealing logical flaws before they become costly mistakes.</p>
+<ol start="5">
+<li><strong>The Power of Visualisation</strong></li>
+</ol>
+<blockquote>
+<p>&ldquo;The greatest value of a picture is when it forces us to notice what we never expected to see.&rdquo; — John W. Turkey</p>
+</blockquote>
+<p>Numbers and text can lie, or at least mislead. This is especially true in tax data analytics. A simple bar chart can be used to understand historic input VAT trends over time. Overlaying a line chart of purchase history can reveal surprise discrepancies. A <a href="https://en.wikipedia.org/wiki/Sankey_diagram">Sankey diagram</a> can be used to visualise the internal workings of cashflows before inspecting the final resulting numbers per country, potentially triggering unexpected withholding taxes and transfer pricing issues.</p>
+<p>Creating quick, simple visualisations should an integral part of any tax data analytics workflow. It&rsquo;s not about making pretty charts for presentations; it&rsquo;s about leveraging our brain&rsquo;s remarkable ability to spot patterns and anomalies from visual diagrams that would otherwise be hidden in rows of numbers. This in turn aids us to raise relevant questions for tax and commercial teams.</p>
+<ol start="6">
+<li><strong>The Efficiency of Structured Chaos</strong></li>
+</ol>
+<p>Starting a new tax data analytics project is exciting and we tend to dive straight into the &ldquo;dirty end&rdquo;, leaving the organisation of the project &ldquo;later&rdquo; - a later that rarely came. However, utilising a project template or a &ldquo;cookie cutter&rdquo; is a massive time-saver for later when the project grows bigger. Raw and processed data, code, documentation, dependencies, tax legislations, and tests, should all follow a set structure and be organised into their rightful places.</p>
+<p>This structure forces me to think about data flow and code organisation from the start. It makes collaboration easier, as team members know exactly where to find what they need. Most importantly, it allows me to focus on solving tax problems instead of constantly reinventing the wheel.</p>
+<p>In tax technology, consistency isn&rsquo;t just about the data - it&rsquo;s about process too.</p>
+<ol start="7">
+<li><strong>The Unexpected Value of Exporting Interim Results</strong></li>
+</ol>
+<p>For non-technical tax colleagues who do not code, data transformations and programmatic analysis can appear to be &ldquo;black box&rdquo; (or even black magic!). Data enters the box, results come out of the box, and it&rsquo;s easy to assume that the magic in the middle is only of interest to fellow engineers. It can be frustrating to explain these internal workings to non-technical stakeholders.</p>
+<p>My own tip here is to export snapshots of the tax data at various stages of transformation, or sampled excerpts if the data is large, to help stakeholders see how the data has evolved at each stage. These snapshots are useful for debugging purposes, for analytical audibility, and an invaluable tool for stakeholder communication. They allow tax experts to review the data in familiar tools like Excel, enabling them to spot potential issues or edge cases that might not be apparent in the final output.</p>
+<p>This practice bridges the gap between technical implementation and tax expertise, providing a trail of breadcrumbs that allows others to follow the analytical journey, step by step.</p>
+<ol start="8">
+<li><strong>The Time-Saving Magic of Result Caching</strong></li>
+</ol>
+<p>Time is always at a premium in tax data analytics, especially during busy seasons. Repeatedly crunching the same massive datasets for slightly different queries is suboptimal.</p>
+<p>For any analysis that involves heavy data processing and transformation which might be used again at a later stage, cache the intermediate results. This can be done by saving interim results to disk as CSV or Feather format, or using materialised views when working with SQL databases.</p>
+<p>This facilitates rapid iteration on downstream analyses without constantly revisiting the entire data pipeline. In tax data analytics, we should be smart about what to compute and when.</p>
+<ol start="9">
+<li><strong>Future-Proofing Your Code</strong></li>
+</ol>
+<p>Tax laws change. From DAC7 to Pillar 2, stacks of FAQs, papers and examples demonstrate the fluidity of interpretation in implementing these requirements. This can be especially challenging if you work in a company that handles multiple jurisdictions, and every change brings a risk that your carefully crafted analyses and models become obsolete.</p>
+<p>Treat each tax data analysis like a living document, designed to evolve with changing regulations. Structure your analysis with change in mind: separate the core logic from specific parameters, use configuration files for values likely to change, and build in flexibility wherever possible.</p>
+<p>This approach requires a little more upfront thought and adds complexity to your initial implementation. The payoff in terms of maintainability and adaptability is enormous. It&rsquo;s the difference between dreading regulatory changes and being able to confidently tell stakeholders, &ldquo;We can handle that.&rdquo;</p>
+<ol start="10">
+<li><strong>The Promise and Peril of Generative AI</strong></li>
+</ol>
+<p>Tools like ChatGPT and GitHub&rsquo;s Copilot are reshaping how we approach coding and problem-solving in tax analytics. Even this article was proof-read by a GPT-powered writing agent tailored to my tax blog writing style.</p>
+<p>These tools are powerful allies when used judiciously. I&rsquo;ve used them to optimise code for greater memory efficiency, rapidly add descriptive comments, and to spot subtle bugs that I might have otherwise overlooked. But they&rsquo;re certainly not magic bullets.</p>
+<p>I&rsquo;ve had my share of AI-induced wild goose chases, where a plausible-sounding suggestion led me down a rabbit hole of non-compliant or inefficient solutions. I&rsquo;ve also heard horror stories of non-tech colleagues blindly trusting coding advice given with undesirable results. AI is a tool, not a replacement for tax and data expertise or, most importantly, critical thinking.</p>
+<blockquote>
+<p>&ldquo;Clean code always looks like it was written by someone who cares.&rdquo; — Robert C. Martin</p>
+</blockquote>
+<p>As tax technology professionals, our role is evolving. We&rsquo;re no longer just tax experts of a specific area of tax - we need to utilise the powerful tools at our disposal to produce results that are not just technically correct, but compliant and sensible in the complex world of tax. Embrace the complexity, stay curious, and keep pushing the boundaries of what&rsquo;s possible.</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/quests/">Quests</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents"></nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&text=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&is_video=false&description=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad&body=Check out this article: https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&title=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&name=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad&description=The%20analysis%20of%20tax%20data%20often%20yields%20contradictory%20paradoxes%2c%20requiring%20both%20numerical%20precision%20as%20well%20as%20analytical%20interpretation%20of%20tax%20regulations.%20With%20Pillar%202%20looming%2c%20understanding%20best%20practices%20for%20tax%20data%20collection%2c%20analysis%2c%20calculation%2c%20and%20reporting%20is%20paramount.%0aWhether%20you%26rsquo%3bre%20an%20Excel%20expert%2c%20an%20Alteryx%20aficionado%2c%20proficient%20with%20Python%2c%20or%20skilled%20using%20SQL%2c%20the%20following%20is%20some%20hard%20won%20practical%20tips%20for%20working%20with%20real-world%20tax%20data%2c%20from%20data%20cleaning%20to%20building%20machine%20learning%20tax%20models.">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshan.tax%2fposts%2ftrenches%2f&t=%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%92%bb%20The%20Hidden%20Complexity%20of%20Tax%20Data%20Analytics%3a%2010%20Lessons%20from%20the%20Trenches%20%f0%9f%91%a9%f0%9f%8f%bb%e2%80%8d%f0%9f%8f%ad">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2024  Shan Sun 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/about/">About</a></li>
+         
+        <li><a href="/quests/">Quests</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>
