@@ -1,5 +1,5 @@
 +++ 
-date = 2024-08-11T15:48:00Z
+date = 2024-08-11T14:48:00Z
 slug = "trenches" 
 title = "👩🏻‍💻 The Hidden Complexity of Tax Data Analytics: 10 Lessons from the Trenches 👩🏻‍🏭"
 +++
