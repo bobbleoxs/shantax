@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Building TaxCat: AI-Powered VAT Classification for UK SMEs | Shan Sun</title>
+  <meta name="description" content="Reflections on tax, tax technology and more.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:url" content="https://shan.tax/posts/building-taxcat-ai-powered-vat-classification/">
+  <meta property="og:site_name" content="Shan Sun">
+  <meta property="og:title" content="Building TaxCat: AI-Powered VAT Classification for UK SMEs">
+  <meta property="og:description" content="Building TaxCat: AI-Powered VAT Classification for UK SMEs As someone working in tax technology, I’ve witnessed firsthand the challenges small and medium enterprises face when navigating UK VAT compliance. Complex regulations, countless exceptions, and the fear of getting it wrong create real barriers for business owners who just want to focus on growing their core business. This inspired me to build TaxCat - an AI-powered application that makes VAT categorisation as simple as possible.">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-01T21:03:20+00:00">
+    <meta property="article:modified_time" content="2025-06-01T21:03:20+00:00">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Building TaxCat: AI-Powered VAT Classification for UK SMEs">
+  <meta name="twitter:description" content="Building TaxCat: AI-Powered VAT Classification for UK SMEs As someone working in tax technology, I’ve witnessed firsthand the challenges small and medium enterprises face when navigating UK VAT compliance. Complex regulations, countless exceptions, and the fear of getting it wrong create real barriers for business owners who just want to focus on growing their core business. This inspired me to build TaxCat - an AI-powered application that makes VAT categorisation as simple as possible.">
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://shan.tax/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="https://shan.tax/images/favicon.ico" />
+
+  
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/about/">About</a></li>
+         
+        <li><a href="/quests/">Quests</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://shan.tax/posts/ai-management-essentials-tool/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&text=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&is_video=false&description=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs&body=Check out this article: https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-digg " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&name=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs&description=%3ch1%20id%3d%22building-taxcat-ai-powered-vat-classification-for-uk-smes%22%3eBuilding%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs%3c%2fh1%3e%0a%3cp%3eAs%20someone%20working%20in%20tax%20technology%2c%20I%26rsquo%3bve%20witnessed%20firsthand%20the%20challenges%20small%20and%20medium%20enterprises%20face%20when%20navigating%20UK%20VAT%20compliance.%20Complex%20regulations%2c%20countless%20exceptions%2c%20and%20the%20fear%20of%20getting%20it%20wrong%20create%20real%20barriers%20for%20business%20owners%20who%20just%20want%20to%20focus%20on%20growing%20their%20core%20business.%20This%20inspired%20me%20to%20build%20%3cstrong%3e%3ca%20href%3d%22https%3a%2f%2ftaxcat.ai%22%3eTaxCat%3c%2fa%3e%3c%2fstrong%3e%20-%20an%20AI-powered%20application%20that%20makes%20VAT%20categorisation%20as%20simple%20as%20possible.%3c%2fp%3e">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&t=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-problem-taxcat-solves">The Problem TaxCat Solves</a></li>
+    <li><a href="#how-taxcat-works">How TaxCat Works</a></li>
+    <li><a href="#key-learnings-from-building-taxcat">Key Learnings from Building TaxCat</a>
+      <ul>
+        <li><a href="#1-starting-is-easier-than-you-think">1. Starting is Easier Than You Think</a></li>
+        <li><a href="#2-getting-it-right-is-harder-than-expected">2. Getting it Right is Harder Than Expected</a></li>
+        <li><a href="#3-problem-definition-is-critical">3. Problem Definition is Critical</a></li>
+        <li><a href="#4-new-skills-for-the-ai-era">4. New Skills for the AI Era</a></li>
+        <li><a href="#5-human-centered-design-matters">5. Human-Centered Design Matters</a></li>
+        <li><a href="#6-this-is-just-the-beginning">6. This is Just the Beginning</a></li>
+      </ul>
+    </li>
+    <li><a href="#current-status-and-next-steps">Current Status and Next Steps</a></li>
+    <li><a href="#why-this-matters">Why This Matters</a></li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Building TaxCat: AI-Powered VAT Classification for UK SMEs
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2025-06-01 21:03:20 &#43;0000 UTC" itemprop="datePublished">2025-06</time>
+          
+        </div>
+        
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <h1 id="building-taxcat-ai-powered-vat-classification-for-uk-smes">Building TaxCat: AI-Powered VAT Classification for UK SMEs</h1>
+<p>As someone working in tax technology, I&rsquo;ve witnessed firsthand the challenges small and medium enterprises face when navigating UK VAT compliance. Complex regulations, countless exceptions, and the fear of getting it wrong create real barriers for business owners who just want to focus on growing their core business. This inspired me to build <strong><a href="https://taxcat.ai">TaxCat</a></strong> - an AI-powered application that makes VAT categorisation as simple as possible.</p>
+<p><img src="/uploads/taxcat-interface.png" alt="TaxCat Interface"></p>
+<h2 id="the-problem-taxcat-solves">The Problem TaxCat Solves</h2>
+<p>UK VAT rules are notoriously complex. A children&rsquo;s book might be zero-rated while an eletronic one is standard-rated. Digital services could be subject to reverse charge mechanisms or standard VAT depending on whether they&rsquo;re B2B or B2C transactions. Cross-border scenarios add another layer of complexity, especially post-Brexit.</p>
+<p>Currently, SMEs face three unsatisfactory options: spend hours researching HMRC guidance documents, pay for expensive professional advice on routine questions, or make their best guess and hope for the best. TaxCat offers a fourth option: instant, AI-powered classification based on official HMRC guidance.</p>
+<h2 id="how-taxcat-works">How TaxCat Works</h2>
+<p>TaxCat employs several modern AI techniques, including <strong>Retrieval-Augmented Generation (RAG)</strong> among others, to combine the reasoning capabilities of large language models with authoritative knowledge sources. Rather than relying on general AI knowledge, the system draws from a carefully curated database of official HMRC VAT notices and guidance documents through sophisticated processing and analysis methods.</p>
+<p>Users simply describe their product or service in plain English and TaxCat provides the VAT treatment along with clear explanations and references to relevant guidance. I&rsquo;ve also added some common trip-ups if the scenario is particularly complex with edge cases or unknown nuances. The system is still under development but it aims to handle complex scenarios like reverse charge mechanisms, cross-border digital services, and industry-specific exemptions.</p>
+<p><strong>Technology Foundation:</strong></p>
+<ul>
+<li><strong>Backend API</strong> built with modern Python frameworks</li>
+<li><strong>AI/ML Pipeline</strong> using semantic search and document retrieval</li>
+<li><strong>Responsive Web Interface</strong> optimized for business users</li>
+<li><strong>Cloud Infrastructure</strong> ensuring reliable availability</li>
+</ul>
+<h2 id="key-learnings-from-building-taxcat">Key Learnings from Building TaxCat</h2>
+<h3 id="1-starting-is-easier-than-you-think">1. Starting is Easier Than You Think</h3>
+<p>The barrier to entry for AI applications has dropped dramatically. With modern frameworks and APIs, you can build a functional prototype faster than you might expect. The key is starting with a clear problem and iterating from there.</p>
+<h3 id="2-getting-it-right-is-harder-than-expected">2. Getting it Right is Harder Than Expected</h3>
+<p>While building a basic system is accessible, creating something reliable enough for business-critical decisions requires significant refinement. Consistency, accuracy, and handling edge cases demand careful attention and extensive testing.</p>
+<h3 id="3-problem-definition-is-critical">3. Problem Definition is Critical</h3>
+<p>If you can&rsquo;t articulate the problem you&rsquo;re solving across different layers of complexity, AI will amplify that confusion rather than solve it. I spent considerable time mapping out VAT scenarios, balancing features, and outlining and refining user contexts before the technical implementation became effective.</p>
+<h3 id="4-new-skills-for-the-ai-era">4. New Skills for the AI Era</h3>
+<p>Many fear that AI will replace jobs. I still see it differently. My role evolved from traditional tax research to making strategic decisions about AI system behavior, designing comprehensive testing benchmarks, and navigating complex technical trade-offs. Interestingly, the actual coding now takes significantly less time than before - but this means everything that remains represents genuinely hard problems requiring deeper domain expertise. These hybrid skills - combining specialized knowledge with AI system design - are increasingly critical in our professional services in my view.</p>
+<h3 id="5-human-centered-design-matters">5. Human-Centered Design Matters</h3>
+<p>Even with perfect tax advice, the system fails if users can&rsquo;t understand or apply it. For example, reverse charge guidance must consider whether the user is issuing or receiving an invoice. Small businesses think in terms of practical actions, such as tax codes in their accounting software, not abstract tax principles.</p>
+<h3 id="6-this-is-just-the-beginning">6. This is Just the Beginning</h3>
+<p>TaxCat represents an exciting start in applying AI to tax compliance, but there&rsquo;s enormous potential for expansion - other tax areas, different jurisdictions, and deeper integration with business workflows. I am truly thrilled to be on this journey.</p>
+<h2 id="current-status-and-next-steps">Current Status and Next Steps</h2>
+<p>TaxCat is in active development with a functional system achieving high accuracy on standard VAT classification scenarios. The core infrastructure is deployed and working, with ongoing refinements to handle edge cases and improve user experience.</p>
+<h2 id="why-this-matters">Why This Matters</h2>
+<p>TaxCat demonstrates how AI can democratize access to professional-grade tax guidance. Instead of replacing human expertise, it makes that expertise more accessible to those who need it most - small business owners who shouldn&rsquo;t have to become tax experts to run their companies.</p>
+<blockquote>
+<p><em>Note: TaxCat provides guidance based on official HMRC sources but should not be used as the sole basis for VAT compliance decisions. Always consult official guidance or qualified tax professionals for definitive advice.</em></p></blockquote>
+<p>The project has reinforced my belief that the most impactful AI applications solve real business problems rather than showcasing technology for its own sake. By combining domain expertise with modern AI capabilities, we can build tools that genuinely improve how businesses operate.</p>
+<p>Building TaxCat has been challenging but incredibly rewarding. It&rsquo;s shown me the potential for AI to transform professional services and reinforced the importance of understanding both the technical possibilities and the human needs they serve.</p>
+<p><em>TaxCat is currently in development. For updates on the project or to discuss AI applications in tax technology, you can follow the progress at <a href="https://taxcat.ai">taxcat.ai</a> or drop me an email at <a href="mailto:hi@taxcat.ai">hi@taxcat.ai</a></em></p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/quests/">Quests</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-problem-taxcat-solves">The Problem TaxCat Solves</a></li>
+    <li><a href="#how-taxcat-works">How TaxCat Works</a></li>
+    <li><a href="#key-learnings-from-building-taxcat">Key Learnings from Building TaxCat</a>
+      <ul>
+        <li><a href="#1-starting-is-easier-than-you-think">1. Starting is Easier Than You Think</a></li>
+        <li><a href="#2-getting-it-right-is-harder-than-expected">2. Getting it Right is Harder Than Expected</a></li>
+        <li><a href="#3-problem-definition-is-critical">3. Problem Definition is Critical</a></li>
+        <li><a href="#4-new-skills-for-the-ai-era">4. New Skills for the AI Era</a></li>
+        <li><a href="#5-human-centered-design-matters">5. Human-Centered Design Matters</a></li>
+        <li><a href="#6-this-is-just-the-beginning">6. This is Just the Beginning</a></li>
+      </ul>
+    </li>
+    <li><a href="#current-status-and-next-steps">Current Status and Next Steps</a></li>
+    <li><a href="#why-this-matters">Why This Matters</a></li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&text=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&is_video=false&description=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs&body=Check out this article: https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&title=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&name=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs&description=%3ch1%20id%3d%22building-taxcat-ai-powered-vat-classification-for-uk-smes%22%3eBuilding%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs%3c%2fh1%3e%0a%3cp%3eAs%20someone%20working%20in%20tax%20technology%2c%20I%26rsquo%3bve%20witnessed%20firsthand%20the%20challenges%20small%20and%20medium%20enterprises%20face%20when%20navigating%20UK%20VAT%20compliance.%20Complex%20regulations%2c%20countless%20exceptions%2c%20and%20the%20fear%20of%20getting%20it%20wrong%20create%20real%20barriers%20for%20business%20owners%20who%20just%20want%20to%20focus%20on%20growing%20their%20core%20business.%20This%20inspired%20me%20to%20build%20%3cstrong%3e%3ca%20href%3d%22https%3a%2f%2ftaxcat.ai%22%3eTaxCat%3c%2fa%3e%3c%2fstrong%3e%20-%20an%20AI-powered%20application%20that%20makes%20VAT%20categorisation%20as%20simple%20as%20possible.%3c%2fp%3e">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fshan.tax%2fposts%2fbuilding-taxcat-ai-powered-vat-classification%2f&t=Building%20TaxCat%3a%20AI-Powered%20VAT%20Classification%20for%20UK%20SMEs">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2025  Shan Sun 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/about/">About</a></li>
+         
+        <li><a href="/quests/">Quests</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>
