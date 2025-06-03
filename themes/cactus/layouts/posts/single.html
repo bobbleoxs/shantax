@@ -9,7 +9,9 @@
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header>
       <h1 class="posttitle" itemprop="name headline">
-        🐾 {{ .Title }} 🐾
+        {{ if eq .Title "Building TaxCat: AI-Powered VAT Classification for UK SMEs" }}🐾 {{ .Title }} 🐾
+        {{ else if eq .Title "Building an Interactive AI Management Essentials Tool" }}🤖 {{ .Title }} 🤖
+        {{ else }}{{ .Title }}{{ end }}
       </h1>
       <div class="meta">
         {{ if (or (isset .Site "author") (isset .Site "title"))}}
