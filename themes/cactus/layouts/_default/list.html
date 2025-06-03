@@ -12,7 +12,11 @@
         <time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</time>
       </div>
       <span>    
-        <a class="" href="{{ .Permalink }}">{{ if .Title }} {{ .Title }} {{ else }} Untitled {{ end }}</a>
+        <a class="" href="{{ .Permalink }}">
+          {{ if eq .Title "Building TaxCat: AI-Powered VAT Classification for UK SMEs" }}🐾 {{ .Title }} 🐾
+          {{ else if eq .Title "Building an Interactive AI Management Essentials Tool" }}🤖 {{ .Title }} 🤖
+          {{ else }}{{ .Title }}{{ end }}
+        </a>
       </span>
     </li>
     {{ end }}
