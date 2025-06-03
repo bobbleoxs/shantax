@@ -62,7 +62,11 @@
       {{ range (.Paginate $mainPosts).Pages }}
         <li class="post-item">
           <div class="meta"><time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time></div>
-          <span><a href="{{ .Permalink }}">{{ if .Title }} {{- .Title -}} {{ else }} {{- print "Untitled" -}}{{ end }}</a></span>
+          <span><a href="{{ .Permalink }}">
+            {{ if eq .Title "Building TaxCat: AI-Powered VAT Classification for UK SMEs" }}🐾 {{ .Title }} 🐾
+            {{ else if eq .Title "Building an Interactive AI Management Essentials Tool" }}🤖 {{ .Title }} 🤖
+            {{ else }}{{ .Title }}{{ end }}
+          </a></span>
         </li>
       {{ end }}
     </ul>
@@ -78,7 +82,11 @@
       {{ range (first (.Scratch.Get "count") $mainPosts) }}
         <li class="post-item">
           <div class="meta"><time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time></div>
-          <span><a href="{{ .Permalink }}">{{ if .Title }} {{- .Title -}} {{ else }} {{- print "Untitled" -}}{{ end }}</a></span>
+          <span><a href="{{ .Permalink }}">
+            {{ if eq .Title "Building TaxCat: AI-Powered VAT Classification for UK SMEs" }}🐾 {{ .Title }} 🐾
+            {{ else if eq .Title "Building an Interactive AI Management Essentials Tool" }}🤖 {{ .Title }} 🤖
+            {{ else }}{{ .Title }}{{ end }}
+          </a></span>
         </li>
       {{ end }}
     </ul>
