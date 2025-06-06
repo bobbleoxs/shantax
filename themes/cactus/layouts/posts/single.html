@@ -8,10 +8,12 @@
 
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header>
-      <h1 class="posttitle" itemprop="name headline">
-        {{ if eq .Title "Building TaxCat: AI-Powered VAT Classification for UK SMEs" }}🐾 {{ .Title }} 🐾
-        {{ else if eq .Title "Building an Interactive AI Management Essentials Tool" }}🤖 {{ .Title }} 🤖
-        {{ else }}{{ .Title }}{{ end }}
+      <h1 class="posttitle {{ if eq .Title "Building TaxCat: AI-Powered VAT Classification for UK SMEs" }}taxcat-title{{ end }}" itemprop="name headline">
+        <a href="{{ .Permalink }}">
+          {{ if eq .Title "Building TaxCat: AI-Powered VAT Classification for UK SMEs" }}🐾 {{ .Title }} 🐾
+          {{ else if eq .Title "Building an Interactive AI Management Essentials Tool" }}🤖 {{ .Title }} 🤖
+          {{ else }}{{ .Title }}{{ end }}
+        </a>
       </h1>
       <div class="meta">
         {{ if (or (isset .Site "author") (isset .Site "title"))}}

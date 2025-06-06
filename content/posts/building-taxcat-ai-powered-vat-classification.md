@@ -7,8 +7,6 @@ title = "Building TaxCat: AI-Powered VAT Classification for UK SMEs"
 
 As someone working in tax technology, I've witnessed firsthand the challenges small and medium enterprises face when navigating UK VAT compliance. Complex regulations, countless exceptions, and the fear of getting it wrong create real barriers for business owners who just want to focus on growing their core business. This inspired me to build **[TaxCat](https://taxcat.ai)** - an AI-powered application that makes VAT categorisation as simple as possible.
 
-![TaxCat Interface](/uploads/taxcat-interface.png)
-
 ## The Problem TaxCat Solves
 
 UK VAT rules are notoriously complex. A children's book might be zero-rated while an eletronic one is standard-rated. Digital services could be subject to reverse charge mechanisms or standard VAT depending on whether they're B2B or B2C transactions. Cross-border scenarios add another layer of complexity, especially post-Brexit.

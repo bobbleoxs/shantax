@@ -1650,3 +1650,31 @@
   .highlight .line {
     height: 22px;
   }
+  .posttitle.taxcat-title {
+    background-image: url('/uploads/taxcat-interface.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+  }
+  .posttitle.taxcat-title a {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .posttitle.taxcat-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    z-index: 1;
+  }
