@@ -1651,7 +1651,7 @@
     height: 22px;
   }
   .posttitle.taxcat-title {
-    background-image: url('/uploads/taxcat-interface.png');
+    background-image: url('https://shan.tax/uploads/taxcat-interface.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
