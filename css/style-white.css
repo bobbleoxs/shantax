@@ -1655,17 +1655,28 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 2rem;
-    border-radius: 8px;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    overflow: hidden;
   }
   .posttitle.taxcat-title a {
     position: relative;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    display: inline-block;
+    color: #22b07e;
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    text-align: center;
+    text-shadow: 0 2px 16px rgba(0,0,0,0.18), 0 1px 0 #fff;
+    display: block;
+    width: 100%;
   }
   .posttitle.taxcat-title::before {
     content: '';
@@ -1674,7 +1685,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.7);
-    border-radius: 8px;
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(2px);
     z-index: 1;
   }
