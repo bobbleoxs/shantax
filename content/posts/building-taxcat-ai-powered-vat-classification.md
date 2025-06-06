@@ -1,9 +1,4 @@
-+++
-date = 2025-06-01T21:03:20Z
-slug = "building-taxcat-ai-powered-vat-classification"
-title = "Building TaxCat: AI-Powered VAT Classification for UK SMEs"
-
-+++
+[![TaxCat Interface](/uploads/taxcat-interface.png)](https://taxcat.ai)
 
 As someone working in tax technology, I've witnessed firsthand the challenges small and medium enterprises face when navigating UK VAT compliance. Complex regulations, countless exceptions, and the fear of getting it wrong create real barriers for business owners who just want to focus on growing their core business. This inspired me to build **[TaxCat](https://taxcat.ai)** - an AI-powered application that makes VAT categorisation as simple as possible.
 
