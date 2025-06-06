@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shan.tax/posts/ai-management-essentials-tool/</loc>
-    <lastmod>2025-04-15T12:00:00+00:00</lastmod>
+    <loc>https://shan.tax/posts/building-taxcat-ai-powered-vat-classification/</loc>
+    <lastmod>2025-06-01T21:03:20+00:00</lastmod>
   </url><url>
     <loc>https://shan.tax/posts/</loc>
-    <lastmod>2025-04-15T12:00:00+00:00</lastmod>
+    <lastmod>2025-06-01T21:03:20+00:00</lastmod>
   </url><url>
     <loc>https://shan.tax/</loc>
+    <lastmod>2025-06-01T21:03:20+00:00</lastmod>
+  </url><url>
+    <loc>https://shan.tax/posts/ai-management-essentials-tool/</loc>
     <lastmod>2025-04-15T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shan.tax/posts/trenches/</loc>
@@ -73,8 +76,6 @@
   </url><url>
     <loc>https://shan.tax/posts/cbcr-analysis/</loc>
     <lastmod>2017-12-12T23:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://shan.tax/posts/building-taxcat-ai-powered-vat-classification/</loc>
   </url><url>
     <loc>https://shan.tax/categories/</loc>
   </url><url>
