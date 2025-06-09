@@ -24,4 +24,4 @@ Some of my writings are published but if you are curious about all the random st
 * 🇨🇳🇯🇵 can speak Mandarian Chinese natively and some basic Japanese;
 * 🙇🏻‍♀️ is always learning something new, every day.
 
-If you are on the more serious side, you can see my CV/resume here 👉 ⬇️ [Download as a PDF](https://github.com/bobbleoxs/shantax/blob/master/static/uploads/Shan%20Sun%20Mar%2023.pdf "Download as PDF").
+If you are on the more serious side, you can see my CV/resume here 👉 ⬇️ [View my current CV](https://www.canva.com/design/DAGp5AmRgzE/KMn_c6SebW0fqqPveD0Vhw/view?utm_content=DAGp5AmRgzE&utm_campaign=share_your_design&utm_medium=link2&utm_source=shareyourdesignpanel "View my CV") (**this is a living document and always reflects my latest info**).
